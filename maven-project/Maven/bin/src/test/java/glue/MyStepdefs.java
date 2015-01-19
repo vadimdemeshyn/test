@@ -43,7 +43,7 @@ public class MyStepdefs extends Configurations {
     @And("^I Select right language to 'Polish' and click on 'Translate' button$")
     public void I_Select_right_language_to_Polish_and_click_on_Translate_button() throws Throwable {
         browser.findElement(By.id("gt-tl-gms")).click();
-        browser.findElement(By.id("4с")).click();
+        browser.findElement(By.id(":4с")).click();
     }
 
 

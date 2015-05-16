@@ -4,6 +4,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,11 +21,13 @@ public class MyStepdefs extends Configurations {
     public void I_am_on_Google_home_page() throws Throwable {
 
          browser.get("https://www.google.com");
+        browser.manage().window().maximize();
+
     }
 
     @When("^I search \"([^\"]*)\" text$")
     public void I_search_text(String arg1) throws Throwable {
-        browser.findElement(By.id("gbqfq")).sendKeys(arg1);
+        browser.findElement(By.id("lst-ib")).sendKeys(arg1);
     }
 
     @And("^Open result page that is linked to \"([^\"]*)\"$")
@@ -42,9 +45,13 @@ public class MyStepdefs extends Configurations {
 
     @And("^I Select right language to 'Polish' and click on 'Translate' button$")
     public void I_Select_right_language_to_Polish_and_click_on_Translate_button() throws Throwable {
-        browser.findElement(By.id("gt-tl-gms")).click();
-        browser.findElement(By.id(":47")).click();
-    }
+
+
+        WebElement element = browser.findElement(By.id("gt-tl-gms"));
+        element.click();
+        element.sendKeys("Polish");
+        element.sendKeys(Keys.ENTER);
+    };
 
 
     @Then("^I should ensure that result contains \"([^\"]*)\" string$")

@@ -12,9 +12,13 @@ public class Configurations {
 
 // Class with global configuration data. Can be easily extended and used in any other Java class.
 
+
+
     public WebDriver browser = new FirefoxDriver();
 
     public WebDriverWait delay = new WebDriverWait(browser, 10);
+
+
 
 }
 

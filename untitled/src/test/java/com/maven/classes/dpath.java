@@ -22,7 +22,7 @@ public class dpath extends Config {
 
         browser.get("http://dkdev1ee.dollskill.com/");
 
-        //browser.manage().window().maximize();
+        browser.manage().window().maximize();
         js.executeScript("cbar_close_popup(9728);");
 
 
@@ -50,7 +50,7 @@ public class dpath extends Config {
 
 
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkdev1ee.dollskill.com/test-simple-product.html\"]")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("img[alt=\"test simple product Pavel Besedovskij\"]")));
 
        Assert.assertEquals("http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
 

@@ -23,8 +23,8 @@ formatter.match({
   "location": "vbridses.I_am_on_Google_home_paga()"
 });
 formatter.result({
-  "duration": 7767295156,
-  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d47.0.2526.73)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.01 seconds\nBuild info: version: \u00272.47.0\u0027, revision: \u00270e4837e94b1fad0db93e88cd972ed3e235a22892\u0027, time: \u00272015-07-29 15:58:41\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir4596_16019}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.73, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: abc17e9cf66e766c031977bcd273eb2a\n*** Element info: {Using\u003dcss selector, value\u003dinput[id\u003d\"email\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:861)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)\r\n\tat com.maven.classes.vbridses.I_am_on_Google_home_paga(vbridses.java:19)\r\n\tat ✽.Given I am on Google home paga(1.feature:4)\r\n",
+  "duration": 6702865839,
+  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d47.0.2526.106)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.01 seconds\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a4f1289f17e8ecd38bc67e137c2a12e34a\u0027, time: \u00272015-10-07 09:50:14\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir1716_936}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.106, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 244a1f95a8389d28614bf2b3822ff0c2\n*** Element info: {Using\u003dcss selector, value\u003dinput[id\u003d\"email\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:861)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)\r\n\tat com.maven.classes.vbridses.I_am_on_Google_home_paga(vbridses.java:21)\r\n\tat ✽.Given I am on Google home paga(1.feature:4)\r\n",
   "status": "failed"
 });
 formatter.uri("dpath.feature");
@@ -98,8 +98,8 @@ formatter.match({
   "location": "dpath.I_am_on_default_Dollskill_page()"
 });
 formatter.result({
-  "duration": 3189187864,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d47.0.2526.73)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 4 milliseconds\nBuild info: version: \u00272.47.0\u0027, revision: \u00270e4837e94b1fad0db93e88cd972ed3e235a22892\u0027, time: \u00272015-07-29 15:58:41\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir2468_21380}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.73, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 4800f9787efb91d8d09904e766b11782\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)\r\n\tat com.maven.classes.dpath.I_am_on_default_Dollskill_page(dpath.java:26)\r\n\tat ✽.Given I am on default Dollskill page(dpath.feature:5)\r\n",
+  "duration": 7574614039,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom chrome not reachable\n  (Session info: chrome\u003d47.0.2526.106)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.00 seconds\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a4f1289f17e8ecd38bc67e137c2a12e34a\u0027, time: \u00272015-10-07 09:50:14\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir17112_17414}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.106, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: a78c669fa077958e2e216df6c4465ce0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:907)\r\n\tat com.maven.classes.dpath.I_am_on_default_Dollskill_page(dpath.java:25)\r\n\tat ✽.Given I am on default Dollskill page(dpath.feature:5)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -200,8 +200,8 @@ formatter.match({
   "location": "googleTestDefs.I_am_on_Google_home_page()"
 });
 formatter.result({
-  "duration": 3361827319,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom chrome not reachable\n  (Session info: chrome\u003d47.0.2526.73)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.16 seconds\nBuild info: version: \u00272.47.0\u0027, revision: \u00270e4837e94b1fad0db93e88cd972ed3e235a22892\u0027, time: \u00272015-07-29 15:58:41\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir10796_934}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.73, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 7e681fb7c71d90ac55dab9953db0a85d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:833)\r\n\tat com.maven.classes.googleTestDefs.I_am_on_Google_home_page(googleTestDefs.java:24)\r\n\tat ✽.Given I am on Google home page(googleTranslate.feature:4)\r\n",
+  "duration": 3431967703,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom chrome not reachable\n  (Session info: chrome\u003d47.0.2526.106)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.13 seconds\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a4f1289f17e8ecd38bc67e137c2a12e34a\u0027, time: \u00272015-10-07 09:50:14\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir18900_17417}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.106, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 69603e9771e44fe8459c8e2393a0deb5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:907)\r\n\tat com.maven.classes.googleTestDefs.I_am_on_Google_home_page(googleTestDefs.java:24)\r\n\tat ✽.Given I am on Google home page(googleTranslate.feature:4)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -311,264 +311,4 @@ formatter.step({
 });
 formatter.match({
   "location": "solidOpinionTestClass.I_am_on_SolidOpinion_registration_page()"
-});
-formatter.result({
-  "duration": 3896664399,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom chrome not reachable\n  (Session info: chrome\u003d47.0.2526.73)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.13 seconds\nBuild info: version: \u00272.47.0\u0027, revision: \u00270e4837e94b1fad0db93e88cd972ed3e235a22892\u0027, time: \u00272015-07-29 15:58:41\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir15220_5471}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.73, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: da21236b05e1659d1987806319d38d96\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:833)\r\n\tat com.maven.classes.solidOpinionTestClass.I_am_on_SolidOpinion_registration_page(solidOpinionTestClass.java:22)\r\n\tat ✽.Given I am on SolidOpinion registration page(userRegistrationForm.feature:5)\r\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Name_field_with_correct_info()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Email_field_with_valid_email()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Pwd_field_with_valid_pwd()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Confirm_Email_field_with_valid_pwd()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_click_Submit_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_am_successfully_signed_up_to_system()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 13,
-  "name": "Entered passwords in Pwdd and Confirm Pwd are not the same",
-  "description": "",
-  "id": "user-login-test;entered-passwords-in-pwdd-and-confirm-pwd-are-not-the-same",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 14,
-  "name": "I am on SolidOpinion registration page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 15,
-  "name": "I fill Name field with correct info",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 16,
-  "name": "I fill Email field with valid email",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "I fill Pwd field with valid pwd",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "I enter password in Confirmation field that differs from password above",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "I click Submit button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "I should get warning that passwords are not the same",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_am_on_SolidOpinion_registration_page()"
-});
-formatter.result({
-  "duration": 4098004463,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom chrome not reachable\n  (Session info: chrome\u003d47.0.2526.73)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.14 seconds\nBuild info: version: \u00272.47.0\u0027, revision: \u00270e4837e94b1fad0db93e88cd972ed3e235a22892\u0027, time: \u00272015-07-29 15:58:41\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir3316_8231}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.73, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: bd19adda38d5e3f79b61344b978ca47d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:833)\r\n\tat com.maven.classes.solidOpinionTestClass.I_am_on_SolidOpinion_registration_page(solidOpinionTestClass.java:22)\r\n\tat ✽.Given I am on SolidOpinion registration page(userRegistrationForm.feature:14)\r\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Name_field_with_correct_info()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Email_field_with_valid_email()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Pwd_field_with_valid_pwd()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_enter_password_in_Confirmation_field_that_differs_from_password_above()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_click_Submit_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_should_get_warning_that_passwords_are_not_the_same()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 22,
-  "name": "User tries to register with incorrect mail",
-  "description": "",
-  "id": "user-login-test;user-tries-to-register-with-incorrect-mail",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 23,
-  "name": "I am on SolidOpinion registration page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I fill Name field with correct info",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 25,
-  "name": "I fill Email field with invalid email",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I fill Pwd field with valid pwd",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "I fill Confirm Email field with valid pwd",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 28,
-  "name": "I click Submit button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 29,
-  "name": "I should get warning that email is invalid",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_am_on_SolidOpinion_registration_page()"
-});
-formatter.result({
-  "duration": 3556354079,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom chrome not reachable\n  (Session info: chrome\u003d47.0.2526.73)\n  (Driver info: chromedriver\u003d2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform\u003dWindows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.14 seconds\nBuild info: version: \u00272.47.0\u0027, revision: \u00270e4837e94b1fad0db93e88cd972ed3e235a22892\u0027, time: \u00272015-07-29 15:58:41\u0027\nSystem info: host: \u0027vadim-ПК\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{userDataDir\u003dC:\\Users\\vadim\\AppData\\Local\\Temp\\scoped_dir8068_31606}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d47.0.2526.73, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 86427d3539abe50ee532dce15a7a86a4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:833)\r\n\tat com.maven.classes.solidOpinionTestClass.I_am_on_SolidOpinion_registration_page(solidOpinionTestClass.java:22)\r\n\tat ✽.Given I am on SolidOpinion registration page(userRegistrationForm.feature:23)\r\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Name_field_with_correct_info()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Email_field_with_invalid_email()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Pwd_field_with_valid_pwd()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_fill_Confirm_Email_field_with_valid_pwd()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_click_Submit_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_should_get_warning_that_email_is_invalid()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 31,
-  "name": "User tries to register without credentials",
-  "description": "",
-  "id": "user-login-test;user-tries-to-register-without-credentials",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 32,
-  "name": "I am on SolidOpinion registration page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 33,
-  "name": "I click Submit button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 34,
-  "name": "I should get warning that I should type in credentials",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_am_on_SolidOpinion_registration_page()"
-});
-formatter.result({
-  "duration": 4054440612,
-  "status": "passed"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_click_Submit_button()"
-});
-formatter.result({
-  "duration": 54810300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "solidOpinionTestClass.I_should_get_warning_that_I_should_type_in_credentials()"
-});
-formatter.result({
-  "duration": 580522212,
-  "status": "passed"
-});
 });

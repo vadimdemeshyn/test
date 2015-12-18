@@ -4,6 +4,8 @@ import cucumber.api.java.en.Given;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 
 import java.util.List;
 
@@ -33,4 +35,10 @@ public class vbridses extends Config {
         }
 
     }
+
+    @AfterTest
+    public void closeFirefox(){
+        browser.quit();
+    }
+
 }

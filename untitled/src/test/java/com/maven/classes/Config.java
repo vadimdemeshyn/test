@@ -7,8 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+
 import java.io.File;
+import java.net.URL;
 
 
 /**
@@ -18,6 +23,8 @@ import java.io.File;
 
 
 public class Config {
+
+    DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
 
 
 
@@ -80,6 +87,8 @@ public class Config {
         return (first[e] + " " + second[g] + " " + third[h]);
 
     }
+
+
 
 
 

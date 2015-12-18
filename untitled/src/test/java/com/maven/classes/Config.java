@@ -1,11 +1,16 @@
 package com.maven.classes;
 
+import bsh.Capabilities;
+import cucumber.api.java.Before;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,14 +29,14 @@ import java.net.URL;
 
 public class Config {
 
-    DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
 
+    File file = new File("C:/Program Files/phantomjs-2.0.0-windows/bin//phantomjs.exe");
+    final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+    PhantomJSDriver browser = new PhantomJSDriver();
 
-
-
-    File file = new File("D:/untitled/src/chromedriver.exe");
+    /*File file = new File("D:/untitled/src/chromedriver.exe");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-    WebDriver browser = new ChromeDriver();
+    WebDriver browser = new ChromeDriver(); */
 
     JavascriptExecutor js = (JavascriptExecutor) browser;
 

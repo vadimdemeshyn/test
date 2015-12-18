@@ -36,9 +36,4 @@ public class vbridses extends Config {
 
     }
 
-    @AfterTest
-    public void closeFirefox(){
-        browser.quit();
-    }
-
 }

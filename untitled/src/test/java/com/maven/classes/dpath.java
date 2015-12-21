@@ -4,15 +4,17 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by vadim on 08.12.2015.
  */
-
 
 
 
@@ -25,7 +27,10 @@ public class dpath extends Config {
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page()  {
 
-        browser.get("http://dkdev1ee.dollskill.com/");
+
+        browser.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+
+        browser.get("http://dkdev3ee.dollskill.com/");
 
         browser.manage().window().maximize();
         js.executeScript("cbar_close_popup(9728);");
@@ -55,25 +60,22 @@ public class dpath extends Config {
 
 
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("img[alt=\"test simple product Pavel Besedovskij\"]")));
 
-       Assert.assertEquals("http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
+       Assert.assertEquals("http://dkdev3ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
 
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkdev3ee.dollskill.com/test-simple-product.html\"]")));
         searchedProduct.click();
-
 
 
     }
 
     @And("^add product to Cart$")
-    public void add_product_to_Cart(){
+    public void add_product_to_Cart() {
 
-        WebElement addToCartButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#product-addtocart-button")));
+        String a = browser.getPageSource();
+        System.out.println(a);
+        WebElement addToCartButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("product-addtocart-button")));
         addToCartButton.click();
-
-
-
-
 
     }
 

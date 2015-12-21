@@ -20,6 +20,7 @@ public class solidOpinionTestClass extends Config {
     public void I_am_on_SolidOpinion_registration_page() {
         browser.get(startPage + "signup");
         browser.manage().window().maximize();
+
     }
 
     @When("^I fill Name field with correct info$")

@@ -30,6 +30,8 @@ public class vbridses extends Config {
         Thread.sleep(3000);
         List<WebElement> numbers = browser.findElements(By.xpath(".//*[@id='pagination']/a"));
 
+
+
         for (WebElement items : numbers){
             System.out.print(items.getText().substring(2));
         }

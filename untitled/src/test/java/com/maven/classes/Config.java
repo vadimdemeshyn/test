@@ -1,38 +1,27 @@
 package com.maven.classes;
 
-import bsh.Capabilities;
-import cucumber.api.java.Before;
-import cucumber.api.junit.Cucumber;
-import org.junit.runner.RunWith;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriverService;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
-import java.net.URL;
+
 
 
 /**
  * Created by vadim on 29.09.2015.
  */
 
-
-
 public class Config {
 
 
-    File file = new File("C:/Program Files/phantomjs-2.0.0-windows/bin//phantomjs.exe");
+
+
+    File file = new File("C:\\Program Files\\phantomjs-1.9.8-windows\\phantomjs.exe");
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
     PhantomJSDriver browser = new PhantomJSDriver();
+
+
 
     /*File file = new File("D:/untitled/src/chromedriver.exe");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
@@ -42,7 +31,7 @@ public class Config {
 
     //WebDriver browser = new FirefoxDriver();
 
-    public WebDriverWait delay = new WebDriverWait(browser, 60);
+    public WebDriverWait delay = new WebDriverWait(browser, 120);
 
     //Btw are there invalid symbols which are forbidden to use in fields?
 

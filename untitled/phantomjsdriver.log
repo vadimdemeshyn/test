@@ -1459,10 +1459,9 @@ rototype.js:126)
 [INFO  - 2015-12-21T12:29:04.551Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2015-12-21T12:34:04.561Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2015-12-21T12:39:04.565Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-33.379Z] Session [314506d0-a7d8-11e5-8288-39c6d35debf3] - page.onError - stack:
-  addMethods (http://dkdev3ee.dollskill.com/media/js/579057f162bc87b1e2cdc5ce40bd3db4.js:126)
-  create (http://dkdev3ee.dollskill.com/media/js/579057f162bc87b1e2cdc5ce40bd3db4.js:115)
-  (anonymous function) (http://dkdev3ee.dollskill.com/media/js/579057f162bc87b1e2cdc5ce40bd3db4.js:19692)
+[INFO  - 2015-12-21T12:44:04.574Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-21T12:49:04.574Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ function) (http://dkdev3ee.dollskill.com/media/js/579057f162bc87b1e2cdc5ce40bd3db4.js:19692)
 [ERROR - 2015-12-21T11:44:41.711Z] Session [314506d0-a7d8-11e5-8288-39c6d35debf3] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
 [ERROR - 2015-12-21T11:44:41.711Z] Session [314506d0-a7d8-11e5-8288-39c6d35debf3] - page.onError - stack:
   addMethods (http://dkdev3ee.dollskill.com/media/js/44c7af08f4a33559714d6d7a1cfc90a2.js:126)
@@ -1628,7 +1627,9 @@ rototype.js:126)
 [INFO  - 2015-12-21T12:29:28.422Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2015-12-21T12:34:28.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2015-12-21T12:39:28.436Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-rm":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-12-21T12:44:28.436Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-21T12:49:28.436Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+:false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2015-12-21T12:11:47.518Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0222b1a0-a7dc-11e5-99c6-5756c895f4f0
 [ERROR - 2015-12-21T12:11:52.265Z] Session [0222b1a0-a7dc-11e5-99c6-5756c895f4f0] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
 [ERROR - 2015-12-21T12:11:52.265Z] Session [0222b1a0-a7dc-11e5-99c6-5756c895f4f0] - page.onError - stack:
@@ -1797,3 +1798,5 @@ rm":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAl
 [INFO  - 2015-12-21T12:31:47.345Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2015-12-21T12:36:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2015-12-21T12:41:47.358Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-21T12:46:47.361Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-21T12:51:47.361Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

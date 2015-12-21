@@ -28,8 +28,6 @@ public class dpath extends Config {
     public void I_am_on_default_Dollskill_page()  {
 
 
-        browser.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-
         browser.get("http://dkdev1ee.dollskill.com/");
 
         browser.manage().window().maximize();
@@ -131,9 +129,9 @@ public class dpath extends Config {
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() {
 
-        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class=\"page-title\"]")));
+        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Continue Shopping\"]")));
 
-        Assert.assertEquals(submitMessage.getText(), "YOUR ORDER HAS BEEN RECEIVED");
+        Assert.assertEquals(submitMessage.getText(), "CONTINUE SHOPPING");
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
 
     }

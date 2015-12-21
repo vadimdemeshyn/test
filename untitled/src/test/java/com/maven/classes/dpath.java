@@ -72,8 +72,6 @@ public class dpath extends Config {
     @And("^add product to Cart$")
     public void add_product_to_Cart() {
 
-        String a = browser.getPageSource();
-        System.out.println(a);
         WebElement addToCartButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("product-addtocart-button")));
         addToCartButton.click();
 
@@ -133,7 +131,7 @@ public class dpath extends Config {
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() {
 
-        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
+        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class=\"page-title\"]")));
 
         Assert.assertEquals(submitMessage.getText(), "YOUR ORDER HAS BEEN RECEIVED");
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());

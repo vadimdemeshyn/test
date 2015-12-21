@@ -30,7 +30,7 @@ public class dpath extends Config {
 
         browser.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 
-        browser.get("http://dkdev3ee.dollskill.com/");
+        browser.get("http://dkdev1ee.dollskill.com/");
 
         browser.manage().window().maximize();
         js.executeScript("cbar_close_popup(9728);");
@@ -61,9 +61,9 @@ public class dpath extends Config {
 
 
 
-       Assert.assertEquals("http://dkdev3ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
+       Assert.assertEquals("http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkdev3ee.dollskill.com/test-simple-product.html\"]")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkdev1ee.dollskill.com/test-simple-product.html\"]")));
         searchedProduct.click();
 
 

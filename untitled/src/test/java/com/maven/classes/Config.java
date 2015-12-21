@@ -1,6 +1,5 @@
 package com.maven.classes;
 
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,7 +16,7 @@ public class Config {
 
 
 
-    File file = new File("C:\\Program Files\\phantomjs-1.9.8-windows\\phantomjs.exe");
+    File file = new File("phantomjs-1.9.8-windows/phantomjs.exe");
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
     PhantomJSDriver browser = new PhantomJSDriver();
 

@@ -60,7 +60,7 @@ public class solidOpinionTestClass extends Config {
     public void I_am_successfully_signed_up_to_system(){
         WebElement welcomeMsg = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#page_container .welcome-title")));
         String str = welcomeMsg.getText();
-        Assert.assertEquals(str, "Добро пожаловать в SolidOpinion!");
+        Assert.assertEquals(str, "Welcome to SolidOpinion!");
         Assert.assertTrue(browser.getCurrentUrl().contains("welcome"));
 
 
@@ -78,7 +78,7 @@ public class solidOpinionTestClass extends Config {
     public void I_should_get_warning_that_passwords_are_not_the_same(){
         WebElement refusePwds = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".alert span[class=inner]")));
         String  refuse = refusePwds.getText();
-        Assert.assertEquals(refuse, "Пароли не совпадают, пожалуйста, попробуйте еще раз");
+        Assert.assertEquals(refuse, "Oops! Your passwords don’t match, try again.");
 
     }
 
@@ -93,7 +93,7 @@ public class solidOpinionTestClass extends Config {
 
         WebElement invalidEmail = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".alert span[class=inner]")));
         String inv = invalidEmail.getText();
-        Assert.assertEquals(inv, "Пожалуйста, введите корректный адрес электронной почты.");
+        Assert.assertEquals(inv, "Please enter a valid email address.");
 
     }
 
@@ -101,7 +101,7 @@ public class solidOpinionTestClass extends Config {
     public void I_should_get_warning_that_I_should_type_in_credentials() throws Throwable {
         WebElement warningField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".alert span[class=inner]")));
         String warning = warningField.getText();
-        Assert.assertEquals(warning, "Все поля обязательны.");
+        Assert.assertEquals(warning, "All fields are required.");
     }
 }
 

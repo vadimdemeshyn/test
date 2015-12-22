@@ -1,0 +1,6 @@
+#surefire_0
+#Tue Dec 22 16:21:20 EET 2015
+user.dir=d\:\\test\\untitled
+cucumber.options=\ --tags @smoke
+localRepository=C\:\\Users\\vadim\\.m2\\repository
+basedir=d\:\\test\\untitled

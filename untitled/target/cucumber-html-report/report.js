@@ -69,63 +69,16 @@ formatter.match({
   "location": "dpath.I_am_on_default_Dollskill_page()"
 });
 formatter.result({
-  "duration": 10013445922,
+  "duration": 10054302987,
   "status": "passed"
 });
 formatter.match({
   "location": "dpath.I_search_for_needed_product()"
 });
 formatter.result({
-  "duration": 32293191431,
+  "duration": 19083014397,
   "status": "passed"
 });
 formatter.match({
   "location": "dpath.choose_product()"
-});
-formatter.result({
-  "duration": 33129767206,
-  "status": "passed"
-});
-formatter.match({
-  "location": "dpath.add_product_to_Cart()"
-});
-formatter.result({
-  "duration": 81067255,
-  "status": "passed"
-});
-formatter.match({
-  "location": "dpath.proceed_to_Shopping_Cart_page()"
-});
-formatter.result({
-  "duration": 5536730913,
-  "status": "passed"
-});
-formatter.match({
-  "location": "dpath.I_proceed_to_Checkout_page()"
-});
-formatter.result({
-  "duration": 3345140030,
-  "status": "passed"
-});
-formatter.match({
-  "location": "dpath.I_login_with_existing_customer()"
-});
-formatter.result({
-  "duration": 11822875325,
-  "status": "passed"
-});
-formatter.match({
-  "location": "dpath.I_Place_order()"
-});
-formatter.result({
-  "duration": 148140112,
-  "status": "passed"
-});
-formatter.match({
-  "location": "dpath.I_should_see_Confirmation_page()"
-});
-formatter.result({
-  "duration": 8053560819,
-  "status": "passed"
-});
 });

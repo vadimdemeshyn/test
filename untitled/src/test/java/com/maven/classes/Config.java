@@ -1,10 +1,14 @@
 package com.maven.classes;
 
+import bsh.Capabilities;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
-
+import java.net.MalformedURLException;
+import java.net.URL;
 
 
 /**
@@ -14,12 +18,18 @@ import java.io.File;
 public class Config {
 
 
+    DesiredCapabilities caps = DesiredCapabilities.phantomjs();
+
+
+
 
 
     File file = new File("phantomjs-1.9.8-windows/phantomjs.exe");
-    final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
-    PhantomJSDriver browser = new PhantomJSDriver();
 
+
+    final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+
+    PhantomJSDriver browser = new PhantomJSDriver(caps);
 
 
     /*File file = new File("D:/untitled/src/chromedriver.exe");

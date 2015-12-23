@@ -8017,3 +8017,73 @@ b4-11e5-8058-45c21f31efb8] - page.customHeaders:  - {}
 [ERROR - 2015-12-23T14:25:11.704Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450880711637
 [ERROR - 2015-12-23T14:25:13.006Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450880712990
 [ERROR - 2015-12-23T14:25:14.174Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450880714140
+[INFO  - 2015-12-23T14:45:26.249Z] GhostDriver - Main - running on port 62867
+[INFO  - 2015-12-23T14:45:26.429Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-12-23T14:45:26.430Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.customHeaders:  - {}
+[INFO  - 2015-12-23T14:45:26.430Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-12-23T14:45:26.430Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cddc6090-a983-11e5-8ea8-6f5a5c8b235d
+[ERROR - 2015-12-23T14:45:29.877Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:45:29.877Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:45:55.538Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:45:55.538Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:46:08.665Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:46:08.666Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:46:12.092Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881972057
+[ERROR - 2015-12-23T14:46:16.310Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:46:16.310Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:46:20.060Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:46:20.060Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:46:29.201Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:46:29.201Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:46:34.288Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881994245
+[ERROR - 2015-12-23T14:46:35.242Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881995200
+[ERROR - 2015-12-23T14:46:36.148Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881996106
+[ERROR - 2015-12-23T14:46:37.052Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881997014
+[ERROR - 2015-12-23T14:46:37.965Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881997920
+[ERROR - 2015-12-23T14:46:38.871Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881998826
+[ERROR - 2015-12-23T14:46:39.791Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450881999746
+[ERROR - 2015-12-23T14:46:40.701Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450882000655
+[ERROR - 2015-12-23T14:46:41.602Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2015-12-23T14:46:41.602Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  addMethods (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:126)
+  create (http://dkdev1ee.dollskill.com/js/prototype/prototype.js:115)
+  (anonymous function) (http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js:102)
+[ERROR - 2015-12-23T14:46:41.669Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1450882001576
+[ERROR - 2015-12-23T14:46:42.193Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 't.toString')
+[ERROR - 2015-12-23T14:46:42.193Z] Session [cddc6090-a983-11e5-8ea8-6f5a5c8b235d] - page.onError - stack:
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://bat.bing.com/bat.js:1)
+  (anonymous function) (http://dkdev1ee.dollskill.com/checkout/onepage/success/:1)
+  (anonymous function) (http://dkdev1ee.dollskill.com/checkout/onepage/success/:1)
+[INFO  - 2015-12-23T14:50:26.247Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-23T14:55:26.247Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-23T15:00:26.248Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-23T15:05:26.250Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-23T15:10:26.250Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-23T15:15:26.250Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-12-23T15:20:26.264Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

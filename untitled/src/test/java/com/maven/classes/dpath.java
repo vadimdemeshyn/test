@@ -127,6 +127,13 @@ public class dpath extends Config {
 
         WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#submit-btn")));
         finalSbmtButtn.click();
+        System.out.println("clicked final Submit button");
+
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
     }
@@ -134,7 +141,11 @@ public class dpath extends Config {
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() {
 
-
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());

@@ -101,6 +101,8 @@ public class dpath extends Config {
         WebElement loginForm = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[class=\"login-button\"]")));
         loginForm.click();
 
+        browser.switchTo().activeElement();
+
         WebElement emailField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#email")));
         emailField.sendKeys("kaigreene9@gmail.com");
 

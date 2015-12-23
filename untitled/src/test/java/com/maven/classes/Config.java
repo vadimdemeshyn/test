@@ -24,7 +24,7 @@ public class Config {
 
 
 
-    File file = new File("phantomjs-1.9.8-windows/phantomjs.exe");
+    File file = new File("/home/phantomjs-1.9.7-linux-x86_64/bin/phantomjs");
 
 
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());

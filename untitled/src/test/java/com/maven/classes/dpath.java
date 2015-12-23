@@ -72,6 +72,11 @@ public class dpath extends Config {
 
         WebElement addToCartButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("product-addtocart-button")));
         addToCartButton.click();
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -129,21 +134,11 @@ public class dpath extends Config {
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() {
 
-        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Continue Shopping\"]")));
 
-        if (submitMessage.isDisplayed()){
-            System.out.println("button CN exists.");
-            Assert.assertEquals(submitMessage.getText(), "CONTINUE SHOPPING");
 
-        }
-
-        else {
             System.out.println("Text about order is displayed");
             WebElement messageBought = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
             Assert.assertEquals(messageBought.getText(), "Your order has been received");
-
-
-        }
 
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
 

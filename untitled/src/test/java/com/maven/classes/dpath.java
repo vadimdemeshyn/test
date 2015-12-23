@@ -142,6 +142,7 @@ public class dpath extends Config {
     public void I_should_see_Confirmation_page() throws InterruptedException {
 
         Thread.sleep(6000);
+        System.out.println("wait was");
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
 
     }

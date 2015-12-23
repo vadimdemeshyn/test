@@ -139,15 +139,9 @@ public class dpath extends Config {
     }
 
     @Then("^I should see Confirmation page$")
-    public void I_should_see_Confirmation_page() {
+    public void I_should_see_Confirmation_page() throws InterruptedException {
 
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-
+        Thread.sleep(6000);
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
 
     }

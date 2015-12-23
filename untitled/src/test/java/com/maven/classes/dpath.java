@@ -131,7 +131,20 @@ public class dpath extends Config {
 
         WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Continue Shopping\"]")));
 
-        Assert.assertEquals(submitMessage.getText(), "CONTINUE SHOPPING");
+        if (submitMessage.isDisplayed()){
+            System.out.println("button CN exists.");
+            Assert.assertEquals(submitMessage.getText(), "CONTINUE SHOPPING");
+
+        }
+
+        else {
+            System.out.println("Text about order is displayed");
+            WebElement messageBought = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
+            Assert.assertEquals(messageBought.getText(), "Your order has been received");
+
+
+        }
+
         Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
 
     }

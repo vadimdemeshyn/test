@@ -1,0 +1,31 @@
+Dec 24, 2015 9:57:24 AM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a selenium grid server
+2015-12-24 09:57:25.021:INFO:osjs.Server:jetty-7.x.y-SNAPSHOT
+2015-12-24 09:57:25.065:INFO:osjsh.ContextHandler:started o.s.j.s.ServletContextHandler{/,null}
+2015-12-24 09:57:25.072:INFO:osjs.AbstractConnector:Started SocketConnector@0.0.0.0:4444
+Dec 24, 2015 10:07:19 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:24 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:24 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy onEvent
+WARNING: Marking the node as down. Cannot reach the node for 2 tries.
+Dec 24, 2015 10:07:29 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:34 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:39 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:44 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:49 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:54 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:07:59 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:08:04 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:08:09 AM org.openqa.grid.selenium.proxy.DefaultRemoteProxy isAlive
+WARNING: Failed to check status of node: Connection refused
+Dec 24, 2015 10:08:11 AM org.openqa.grid.internal.Registry removeIfPresent
+WARNING: Proxy 'host :http://127.0.0.1:5555' was previously registered.  Cleaning up any stale test sessions.

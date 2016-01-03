@@ -8201,3 +8201,14 @@ b4-11e5-8058-45c21f31efb8] - page.customHeaders:  - {}
   (anonymous function) (http://bat.bing.com/bat.js:1)
   (anonymous function) (http://dkdev1ee.dollskill.com/checkout/onepage/success/:1)
   (anonymous function) (http://dkdev1ee.dollskill.com/checkout/onepage/success/:1)
+[INFO  - 2015-12-24T15:16:12.715Z] GhostDriver - Main - running on port 2346
+[INFO  - 2015-12-24T15:16:12.758Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-12-24T15:19:24.298Z] GhostDriver - Main - running on port 5654
+[INFO  - 2015-12-24T15:19:24.355Z] Session [b6f91c00-aa51-11e5-b819-613cd2e5e620] - CONSTRUCTOR - Desired Capabilities: {"browserName":"phantomjs","version":"","platform":"ANY"}
+[INFO  - 2015-12-24T15:19:24.355Z] Session [b6f91c00-aa51-11e5-b819-613cd2e5e620] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-12-24T15:19:24.355Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b6f91c00-aa51-11e5-b819-613cd2e5e620
+[INFO  - 2015-12-24T15:22:22.584Z] GhostDriver - Main - running on port 28847
+[INFO  - 2015-12-24T15:22:22.611Z] Session [213882e0-aa52-11e5-8b78-ffb5f6744e9e] - CONSTRUCTOR - Desired Capabilities: {"browserName":"phantomjs","version":"","platform":"ANY"}
+[INFO  - 2015-12-24T15:22:22.613Z] Session [213882e0-aa52-11e5-8b78-ffb5f6744e9e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-12-24T15:22:22.613Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 213882e0-aa52-11e5-8b78-ffb5f6744e9e
+[INFO  - 2015-12-24T15:27:22.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

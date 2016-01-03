@@ -20,12 +20,7 @@ public class Config {
 
     DesiredCapabilities caps = DesiredCapabilities.phantomjs();
 
-
-
-
-
-    File file = new File("/usr/lib/phantomjs/phantomjs");
-
+    File file = new File("phantomjs-1.9.7-linux-x86_64/bin/phantomjs");
 
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
 

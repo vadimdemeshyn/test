@@ -20,7 +20,7 @@
                 <configuration>
                     <verbose>true</verbose>
                     <fork>true</fork>
-                    <executable>/usr/bin/java</executable>
+                    <executable>/usr/bin/javac</executable>
                     <compilerVersion>3.3</compilerVersion>
                 </configuration>
             </plugin>

@@ -8212,3 +8212,902 @@ b4-11e5-8058-45c21f31efb8] - page.customHeaders:  - {}
 [INFO  - 2015-12-24T15:22:22.613Z] Session [213882e0-aa52-11e5-8b78-ffb5f6744e9e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2015-12-24T15:22:22.613Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 213882e0-aa52-11e5-8b78-ffb5f6744e9e
 [INFO  - 2015-12-24T15:27:22.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T21:49:32.834Z] GhostDriver - Main - running on port 5575
+[INFO  - 2016-01-03T21:49:32.907Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-03T21:49:32.907Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - page.customHeaders:  - {}
+[INFO  - 2016-01-03T21:49:32.907Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-03T21:49:32.907Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-03T21:49:32.907Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dfafe060-b263-11e5-9d12-91ec9a13385e
+[ERROR - 2016-01-03T21:49:33.634Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T21:49:33.634Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T21:49:37.172Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T21:49:37.173Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T21:49:39.363Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T21:49:39.364Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T21:49:52.017Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T21:49:52.018Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T21:49:54.326Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T21:49:54.326Z] Session [dfafe060-b263-11e5-9d12-91ec9a13385e] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-03T21:54:32.831Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T21:59:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:04:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:09:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:14:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:19:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:24:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:29:32.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:33:47.794Z] GhostDriver - Main - running on port 13694
+[INFO  - 2016-01-03T22:33:47.942Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-03T22:33:47.942Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - page.customHeaders:  - {}
+[INFO  - 2016-01-03T22:33:47.942Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-03T22:33:47.943Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-03T22:33:47.943Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0e35ea00-b26a-11e5-9955-e5febccf91e7
+[ERROR - 2016-01-03T22:33:49.242Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:33:49.243Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:33:56.089Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:33:56.089Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:33:59.458Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:33:59.458Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:34:13.407Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:34:13.408Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:34:16.262Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:34:16.262Z] Session [0e35ea00-b26a-11e5-9955-e5febccf91e7] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-03T22:38:47.790Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:43:47.790Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:48:47.789Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:53:47.790Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T22:54:51.084Z] GhostDriver - Main - running on port 3808
+[INFO  - 2016-01-03T22:54:51.171Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-03T22:54:51.171Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - page.customHeaders:  - {}
+[INFO  - 2016-01-03T22:54:51.171Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-03T22:54:51.172Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-03T22:54:51.172Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ff275cd0-b26c-11e5-9ea9-89f42d96b123
+[ERROR - 2016-01-03T22:54:52.366Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:54:52.367Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:54:57.306Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:54:57.307Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:55:00.808Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:55:00.808Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:55:13.475Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:55:13.475Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-03T22:55:16.004Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-03T22:55:16.004Z] Session [ff275cd0-b26c-11e5-9ea9-89f42d96b123] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-03T22:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:04:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:09:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:14:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:19:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:24:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:29:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:34:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:39:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:44:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:49:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:54:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-03T23:59:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:04:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:09:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:14:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:19:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:24:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:29:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:34:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:39:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:44:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:49:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:54:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T00:59:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:04:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:09:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:14:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:19:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:24:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:29:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:34:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:39:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:44:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:49:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:54:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T01:59:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:04:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:09:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:14:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:19:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:24:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:29:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:34:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:39:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:44:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:49:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:54:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T02:59:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:04:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:09:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:14:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:19:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:24:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:29:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:34:51.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:39:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:44:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:49:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:54:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T03:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:04:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:09:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:14:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:19:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:24:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:29:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:34:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:39:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:44:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:49:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:54:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T04:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:04:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:09:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:14:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:19:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:24:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:29:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:34:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:39:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:44:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:49:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:54:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T05:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:04:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:09:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:14:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:19:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:24:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:29:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:34:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:39:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:44:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:49:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:54:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T06:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:04:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:09:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:14:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:19:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:24:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:29:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:34:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:39:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:44:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:49:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:54:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T07:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:04:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:09:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:14:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:19:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:24:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:29:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:34:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:39:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:44:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:49:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:54:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T08:59:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:04:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:09:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:14:51.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:19:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:24:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:29:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:34:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:39:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:44:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:49:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:54:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T09:59:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:04:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:09:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:14:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:19:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:24:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:29:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:34:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:39:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:44:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:49:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:54:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T10:59:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:04:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:09:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:14:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:19:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:24:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:29:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:34:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:39:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:44:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:49:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:54:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T11:59:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:04:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:09:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:14:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:19:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:24:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:29:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:34:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:39:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:44:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T12:49:51.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:04:51.701Z] GhostDriver - Main - running on port 1768
+[INFO  - 2016-01-04T13:04:51.826Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-04T13:04:51.826Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - page.customHeaders:  - {}
+[INFO  - 2016-01-04T13:04:51.826Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-04T13:04:51.826Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-04T13:04:51.826Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bde9bac0-b2e3-11e5-9c36-4bf7b9cceade
+[ERROR - 2016-01-04T13:04:52.765Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:04:52.765Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:05:02.796Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:05:02.796Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:05:07.449Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:05:07.450Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:05:21.152Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:05:21.153Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:05:25.537Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:05:25.538Z] Session [bde9bac0-b2e3-11e5-9c36-4bf7b9cceade] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-04T13:09:51.697Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:14:51.696Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:19:51.696Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:23:14.925Z] GhostDriver - Main - running on port 12486
+[INFO  - 2016-01-04T13:23:14.989Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-04T13:23:14.989Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - page.customHeaders:  - {}
+[INFO  - 2016-01-04T13:23:14.989Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-04T13:23:14.990Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-04T13:23:14.990Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4f735990-b2e6-11e5-9074-d557b6b19496
+[ERROR - 2016-01-04T13:23:16.267Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:23:16.267Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:23:20.055Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:23:20.055Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:23:22.990Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:23:22.990Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:23:35.438Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:23:35.439Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:23:38.000Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:23:38.001Z] Session [4f735990-b2e6-11e5-9074-d557b6b19496] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-04T13:28:14.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:33:14.918Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:38:14.918Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:43:14.918Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:48:14.918Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T13:51:55.591Z] GhostDriver - Main - running on port 6690
+[INFO  - 2016-01-04T13:51:55.656Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-04T13:51:55.656Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - page.customHeaders:  - {}
+[INFO  - 2016-01-04T13:51:55.657Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-04T13:51:55.657Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-04T13:51:55.657Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 510c4c40-b2ea-11e5-a3f3-71bbc4caaada
+[ERROR - 2016-01-04T13:51:57.158Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:51:57.158Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:52:01.032Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:52:01.032Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:52:03.773Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:52:03.773Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:52:16.762Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:52:16.762Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T13:52:19.356Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T13:52:19.357Z] Session [510c4c40-b2ea-11e5-a3f3-71bbc4caaada] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-04T13:56:55.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:01:55.584Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:06:55.584Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:11:55.584Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:16:55.584Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:21:55.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:26:55.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:31:55.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:34:09.952Z] GhostDriver - Main - running on port 5516
+[INFO  - 2016-01-04T14:34:10.075Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-01-04T14:34:10.075Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - page.customHeaders:  - {}
+[INFO  - 2016-01-04T14:34:10.076Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2016-01-04T14:34:10.076Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-04T14:34:10.076Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 37ada450-b2f0-11e5-86be-73386e08c2a4
+[ERROR - 2016-01-04T14:34:11.509Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T14:34:11.509Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T14:34:15.220Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T14:34:15.220Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T14:34:18.141Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T14:34:18.141Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/test-simple-product.html' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T14:34:31.242Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T14:34:31.243Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/checkout/cart/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[ERROR - 2016-01-04T14:34:33.521Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-01-04T14:34:33.521Z] Session [37ada450-b2f0-11e5-86be-73386e08c2a4] - Page at 'http://dkdev1ee.dollskill.com/checkout/onepage/' - Console Error (stack): [
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 126,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/js/prototype/prototype.js",
+    "line": 115,
+    "function": "create"
+  },
+  {
+    "file": "http://dkdev1ee.dollskill.com/skin/frontend/dollskill/enterprise/js/enterprise/wishlist.js",
+    "line": 102,
+    "function": ""
+  }
+]
+[INFO  - 2016-01-04T14:39:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:44:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:49:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:54:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T14:59:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:04:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:09:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:14:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:19:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:24:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:29:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:34:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:39:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:44:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:49:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:54:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T15:59:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:04:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:09:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:14:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:19:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:24:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:29:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:34:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:39:09.947Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:44:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:49:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:54:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T16:59:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T17:04:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T17:09:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-04T17:14:09.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

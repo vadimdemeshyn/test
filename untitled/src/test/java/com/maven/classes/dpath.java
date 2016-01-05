@@ -21,11 +21,8 @@ import java.util.concurrent.TimeUnit;
 public class dpath extends Config {
 
 
-
-
-
     @Given("^I am on default Dollskill page$")
-    public void I_am_on_default_Dollskill_page()  {
+    public void I_am_on_default_Dollskill_page() {
 
 
         browser.get("http://dkdev1ee.dollskill.com/");
@@ -38,7 +35,6 @@ public class dpath extends Config {
 
     @When("^I search for needed product$")
     public void I_search_for_needed_product() {
-
 
 
         WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
@@ -57,9 +53,7 @@ public class dpath extends Config {
     public void choose_product() {
 
 
-
-
-       Assert.assertEquals("http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
+        Assert.assertEquals("http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
 
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkdev1ee.dollskill.com/test-simple-product.html\"]")));
         searchedProduct.click();
@@ -81,7 +75,7 @@ public class dpath extends Config {
     }
 
     @And("^proceed to Shopping Cart page$")
-    public void proceed_to_Shopping_Cart_page()  {
+    public void proceed_to_Shopping_Cart_page() {
 
         WebElement clickButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".viewcart-button")));
 
@@ -89,14 +83,14 @@ public class dpath extends Config {
     }
 
     @And("^I proceed to Checkout page$")
-    public void I_proceed_to_Checkout_page()  {
+    public void I_proceed_to_Checkout_page() {
         WebElement checkoutButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Proceed to Checkout\"]")));
         checkoutButton.click();
 
     }
 
     @And("^I login with existing customer$")
-    public void I_login_with_existing_customer()  {
+    public void I_login_with_existing_customer() {
 
         WebElement loginForm = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[class=\"login-button\"]")));
         loginForm.click();
@@ -126,7 +120,6 @@ public class dpath extends Config {
     public void I_Place_order() {
 
 
-
         WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#submit-btn")));
         finalSbmtButtn.click();
         System.out.println("clicked final Submit button");
@@ -143,5 +136,16 @@ public class dpath extends Config {
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() throws InterruptedException {
         System.out.println("wait was");
+
+        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Continue Shopping\"]")));
+        if (submitMessage.isDisplayed()) {
+            System.out.println("button CN exists.");
+            Assert.assertEquals(submitMessage.getText(), "CONTINUE SHOPPING");
+
+
+        }
+
+        Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
+
     }
 }

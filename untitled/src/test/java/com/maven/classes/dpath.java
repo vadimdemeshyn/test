@@ -137,6 +137,8 @@ public class dpath extends Config {
     public void I_should_see_Confirmation_page() throws InterruptedException {
         System.out.println("wait was");
 
+        System.out.println(browser.getPageSource());
+
         WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Continue Shopping\"]")));
         if (submitMessage.isDisplayed()) {
             System.out.println("button CN exists.");

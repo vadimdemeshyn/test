@@ -122,6 +122,7 @@ public class dpath extends Config {
 
         WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#submit-btn")));
         finalSbmtButtn.click();
+
         System.out.println("clicked final Submit button");
 
         try {
@@ -129,27 +130,13 @@ public class dpath extends Config {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        js.executeScript("checkout.LightcheckoutSubmit()");
-
+        
 
     }
 
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() throws InterruptedException {
         System.out.println("wait was");
-
-        System.out.println(browser.getPageSource());
-
-        WebElement submitMessage = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[title=\"Continue Shopping\"]")));
-        if (submitMessage.isDisplayed()) {
-            System.out.println("button CN exists.");
-            Assert.assertEquals(submitMessage.getText(), "CONTINUE SHOPPING");
-
-
-        }
-
-        Assert.assertEquals("http://dkdev1ee.dollskill.com/checkout/onepage/success/", browser.getCurrentUrl());
 
     }
 }

@@ -130,6 +130,8 @@ public class dpath extends Config {
             e.printStackTrace();
         }
 
+        js.executeScript("checkout.LightcheckoutSubmit()");
+
 
     }
 

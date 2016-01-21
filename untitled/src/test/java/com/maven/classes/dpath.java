@@ -123,7 +123,7 @@ public class dpath extends Config {
         System.out.println(browser.getPageSource());
 
 
-        WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("#submit-btn")));
+        WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("submit-btn")));
         finalSbmtButtn.click();
 
         System.out.println("clicked final Submit button");

@@ -120,7 +120,7 @@ public class dpath extends Config {
     @And("^I Place order$")
     public void I_Place_order() throws IOException {
 
-        final String content = browser.getPageSource();
+        final String content = "a";
         File screenshot = new File("/var/www/html/screenshot.html");
 
 

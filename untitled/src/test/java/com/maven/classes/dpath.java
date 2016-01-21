@@ -121,7 +121,7 @@ public class dpath extends Config {
     public void I_Place_order() throws IOException {
 
         String content = browser.getPageSource();
-        File screenshot = new File("/var/www/html/screenshot.html");
+        File screenshot = new File("screenshot.html");
         if (!file.exists()) {
             file.createNewFile();
         }

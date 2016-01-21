@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import java.io.*;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -117,10 +118,25 @@ public class dpath extends Config {
     }
 
     @And("^I Place order$")
-    public void I_Place_order() {
+    public void I_Place_order() throws IOException {
+
+        String content = browser.getPageSource();
+        File screenshot = new File("/var/www/html/screenshot.html");
+        if (!file.exists()) {
+            file.createNewFile();
+        }
 
 
-        WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#submit-btn")));
+        FileWriter fw = new FileWriter(file.getAbsoluteFile());
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(content);
+        bw.close();
+
+        System.out.println("Done");
+
+
+
+        WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("#submit-btn")));
         finalSbmtButtn.click();
 
         System.out.println("clicked final Submit button");

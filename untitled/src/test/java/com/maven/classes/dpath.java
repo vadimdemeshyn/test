@@ -130,9 +130,6 @@ public class dpath extends Config {
         bw.write(content);
         bw.close();
 
-        System.out.println("Done");
-
-
 
         WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("#submit-btn")));
         finalSbmtButtn.click();

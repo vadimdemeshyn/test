@@ -120,15 +120,7 @@ public class dpath extends Config {
     @And("^I Place order$")
     public void I_Place_order() throws IOException {
 
-        final String content = "a";
-        File screenshot = new File("/var/www/html/screenshot.html");
-
-
-
-        FileWriter fw = new FileWriter(file.getAbsoluteFile());
-        BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(content);
-        bw.close();
+        System.out.println(browser.getPageSource());
 
 
         WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("#submit-btn")));

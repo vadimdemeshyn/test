@@ -130,7 +130,6 @@ public class dpath extends Config {
         FileWriter fw = new FileWriter(file.getAbsoluteFile());
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write(content);
-        bw.close();
 
         System.out.println("Done");
 

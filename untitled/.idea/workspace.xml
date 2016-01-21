@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="" />
+    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" />
+    </list>
     <ignored path="proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +48,8 @@
       <file leaf-file-name="dpath.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.597561">
-              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.7256098">
+              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -950,7 +952,7 @@
       <workItem from="1453111439646" duration="2321000" />
       <workItem from="1453213109930" duration="2781000" />
       <workItem from="1453295291948" duration="10620000" />
-      <workItem from="1453389211083" duration="798000" />
+      <workItem from="1453389211083" duration="1004000" />
     </task>
     <servers />
   </component>
@@ -981,7 +983,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17283000" />
+    <option name="totallyTimeSpent" value="17489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1051" y="-1029" width="1505" height="917" extended-state="0" />
@@ -1396,8 +1398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.597561">
-          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.7256098">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>

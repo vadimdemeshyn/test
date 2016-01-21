@@ -121,15 +121,14 @@ public class dpath extends Config {
     public void I_Place_order() throws IOException {
 
         String content = browser.getPageSource();
-        File screenshot = new File("screenshot.html");
-        if (!file.exists()) {
-            file.createNewFile();
-        }
+        File screenshot = new File("/var/www/html/screenshot.html");
+
 
 
         FileWriter fw = new FileWriter(file.getAbsoluteFile());
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write(content);
+        bw.close();
 
         System.out.println("Done");
 

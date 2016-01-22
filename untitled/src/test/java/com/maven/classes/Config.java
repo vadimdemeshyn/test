@@ -27,7 +27,7 @@ public class Config {
     PhantomJSDriver browser = new PhantomJSDriver(caps);
 
 
-    /*File file = new File("D:/untitled/src/chromedriver.exe");
+    /*File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
     WebDriver browser = new ChromeDriver(); */
 

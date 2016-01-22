@@ -115,7 +115,11 @@ public class dpath extends Config {
             e.printStackTrace();
         }
 
-        System.out.println(browser.manage().getCookies());
+        System.out.println("firtst cookie" + browser.manage().getCookieNamed("dkdev1ee.dollskill.com"));
+        System.out.println("second cookie" + browser.manage().getCookieNamed("staticxx.facebook.com"));
+        System.out.println("third cookie" + browser.manage().getCookieNamed("static.olark.com"));
+
+
     }
 
     @And("^I Place order$")

@@ -120,9 +120,6 @@ public class dpath extends Config {
     @And("^I Place order$")
     public void I_Place_order() throws IOException {
 
-        System.out.println(browser.getPageSource());
-
-
         WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("submit-btn")));
         finalSbmtButtn.click();
 

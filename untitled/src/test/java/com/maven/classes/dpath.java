@@ -115,12 +115,13 @@ public class dpath extends Config {
             e.printStackTrace();
         }
 
+        System.out.println(browser.manage().getCookies());
     }
 
     @And("^I Place order$")
     public void I_Place_order() throws IOException {
 
-        WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("submit-btn")));
+        WebElement finalSbmtButtn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#submit-btn")));
         finalSbmtButtn.click();
 
         System.out.println("clicked final Submit button");

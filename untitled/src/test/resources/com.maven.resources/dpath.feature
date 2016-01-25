@@ -1,6 +1,6 @@
 @smoke
 Feature: E2E Test
-  Scenario: testing translation for new employee test
+  Scenario: Happy path flow - from entering site to purchase confirmation
 
     Given I am on default Dollskill page
     When I search for needed product

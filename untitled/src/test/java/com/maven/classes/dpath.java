@@ -4,14 +4,11 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-
 import java.io.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by vadim on 08.12.2015.
@@ -26,7 +23,7 @@ public class dpath extends Config {
     public void I_am_on_default_Dollskill_page() {
 
 
-        browser.get("http://dkdev1ee.dollskill.com/");
+        browser.get("http://dkstage.dollskill.com/");
 
         browser.manage().window().maximize();
         js.executeScript("cbar_close_popup(9728);");
@@ -43,7 +40,7 @@ public class dpath extends Config {
 
         WebElement searchField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#search")));
         searchField.click();
-        searchField.sendKeys("test simple product");
+        searchField.sendKeys("Never Say Never Dreamie Bra");
 
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();
@@ -54,10 +51,17 @@ public class dpath extends Config {
     public void choose_product() {
 
 
-        Assert.assertEquals("http://dkdev1ee.dollskill.com/catalogsearch/result/?q=test+simple+product", browser.getCurrentUrl());
+        Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkdev1ee.dollskill.com/test-simple-product.html\"]")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
         searchedProduct.click();
+
+        //selecting options of product
+
+        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
+        colour.sendKeys("BLACK");
+        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
+        size.sendKeys("SMALL");
 
 
     }
@@ -67,11 +71,6 @@ public class dpath extends Config {
 
         WebElement addToCartButton = delay.until(ExpectedConditions.visibilityOfElementLocated(By.id("product-addtocart-button")));
         addToCartButton.click();
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
     }
 
@@ -99,7 +98,7 @@ public class dpath extends Config {
         browser.switchTo().activeElement();
 
         WebElement emailField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#email")));
-        emailField.sendKeys("testmail@google.com");
+        emailField.sendKeys("kaigreene9@gmail.com");
 
         WebElement sbmtBttn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#step-login-email-submit")));
         sbmtBttn.click();
@@ -114,10 +113,6 @@ public class dpath extends Config {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        System.out.println("firtst cookie" + browser.manage().getCookieNamed("dkdev1ee.dollskill.com"));
-        System.out.println("second cookie" + browser.manage().getCookieNamed("staticxx.facebook.com"));
-        System.out.println("third cookie" + browser.manage().getCookieNamed("static.olark.com"));
 
 
     }

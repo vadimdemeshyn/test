@@ -2,6 +2,8 @@ package com.maven.classes;
 
 import bsh.Capabilities;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -20,16 +22,16 @@ public class Config {
 
     DesiredCapabilities caps = DesiredCapabilities.chrome();
 
-    File file = new File("phantomjs-1.9.2-linux-i686/bin/phantomjs");
+    /*File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
 
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
 
-    PhantomJSDriver browser = new PhantomJSDriver(caps);
+    PhantomJSDriver browser = new PhantomJSDriver(caps);*/
 
 
-    /*File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
+    File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-    WebDriver browser = new ChromeDriver(); */
+    WebDriver browser = new ChromeDriver();
 
     JavascriptExecutor js = (JavascriptExecutor) browser;
 

@@ -97,7 +97,7 @@ public class dpath extends Config {
 
         browser.switchTo().activeElement();
 
-        WebElement emailField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#email")));
+        WebElement emailField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#popup-email")));
         emailField.sendKeys("kaigreene9@gmail.com");
 
         WebElement sbmtBttn = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#step-login-email-submit")));

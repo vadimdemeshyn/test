@@ -34,6 +34,38 @@
                     </includes>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>0.0.5</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.googlecode.totallylazy</groupId>
+                        <artifactId>totallylazy</artifactId>
+                        <version>991</version>
+                        <scope>system</scope>
+                        <systemPath>${project.basedir}/totallylazy-991.jar</systemPath>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>cucumber-jvm-example</projectName>
+                            <outputDirectory>${project.build.directory}/cucumber-detalized-reports</outputDirectory>
+                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <enableFlashCharts>false</enableFlashCharts>
+                            <skippedFails>true</skippedFails>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
 
@@ -119,6 +151,19 @@
             <artifactId>selenium-htmlunit-driver</artifactId>
             <version>2.48.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode.totallylazy</groupId>
+            <artifactId>totallylazy</artifactId>
+            <version>1.20</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/totallylazy-1.20.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>0.0.24</version>
+        </dependency>
+
 
     </dependencies>
 

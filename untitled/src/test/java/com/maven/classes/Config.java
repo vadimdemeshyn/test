@@ -20,6 +20,8 @@ import java.net.URL;
 public class Config {
 
 
+
+
     DesiredCapabilities caps = DesiredCapabilities.chrome();
 
     File file = new File("phantomjs-1.9.2-linux-i686/bin/phantomjs");

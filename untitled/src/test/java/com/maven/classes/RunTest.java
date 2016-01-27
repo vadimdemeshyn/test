@@ -9,12 +9,22 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@Cucumber.Options(format = {
+@Cucumber.Options(
+
+        strict = false,
+
+        format = {
+
         "pretty",
-        "html:target/cucumber-html-report"
+        "html:target/cucumber-html-report",
+        "json:target/cucumber.json"
 },
         features = "src/test/resources/com.maven.resources")
 
 
+
+
 public class RunTest {
+
+
 }

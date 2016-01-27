@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Cucumber-JVM Html Reports - Feature: E2E Test </title>
+	<link rel="stylesheet" href="blue/css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/skin/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/960.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/text.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="blue/favicon.ico" />
+    <style>
+    .CodeMirror-scroll {
+      height: auto;
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+
+.feature-keyword{font-weight:bold;}
+.feature-description{padding-left:15px;font-style:italic;background-color:beige;}
+.feature-role{font-weight:bold;}
+.feature-action{font-weight:bold;}
+.feature-value{font-weight:bold;}
+.feature-tags{padding-top:10px;padding-left:15px;color:darkblue;}
+.scenario-keyword{font-weight:bold;padding-left:15px;}
+.scenario-scenario_name{padding-left:15px;}
+.step-keyword{font-weight:bold;padding-left:50px;}
+.step-error-message{background-color:#FFEEEE;padding-left:50px;border: 1px solid #D88A8A;}
+.step-duration{float:right;padding-right:15px;}
+.passed{background-color:#C5D88A;}
+.failed{background-color:#D88A8A;}
+.skipped{background-color:#2DEAEC;}
+.undefined{background-color: #ebcc81;}
+
+table.stats-table {
+color:black;
+border-width: 1px;
+border-spacing: 2px;
+border-style: outset;
+border-color: gray;
+border-collapse: collapse;
+background-color: white;
+}
+table.stats-table th {
+color:black;
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: #66CCEE;
+-moz-border-radius: ;
+}
+table.stats-table td {
+color:black;
+text-align: center;
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: white;
+-moz-border-radius: ;
+}
+
+table.data-table {
+    color: black;
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: #d6d6d6;
+    border-collapse: collapse;
+    background-color: beige;
+}
+table.data-table th {
+    color:black;
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #d6d6d6;
+    background-color: #66CCEE;
+}
+table.data-table td {
+    color:black;
+    text-align: center;
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #d6d6d6;
+    background-color: beige;
+}
+
+.data {
+   padding-left:50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.output-data {
+    padding-left:50px;
+    background-color: beige;
+}
+
+.doc-string {
+    width:auto;
+    display:inline-block;
+    margin: 10px auto 10px 70px;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.35);
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 95%;
+}
+</style>
+
+</head>
+<body id="top">
+	<div id="fullwidth_header">
+		<div class="container_12">
+			<h1 class="grid_4 logo"><a href="feature-overview.html" class='ie6fix'>Cucumber</a></h1>
+			<div class="grid_6" id="nav">
+				<ul>
+                    					<li><a href="tag-overview.html">Tag Overview</a></li>
+					<li><a href="feature-overview.html">Feature Overview</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="fullwidth_gradient">
+		<div class="container_12">
+			<div class="grid_9 heading">
+				<h2 id="feature-title">Feature Result for Build: 1</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container_12">
+		<div class="grid_12">
+
+            <div>
+                <table class="stats-table">
+                    <tr>
+    <th></th>
+    <th id="stats-header-scenarios" colspan="3">Scenarios</th>
+    <th id="stats-header-steps" colspan="5">Steps</th>
+    <th></th>
+    <th></th>
+</tr>
+<tr>
+    <th id="stats-header-feature">Feature</th>
+    <th id="stats-header-scenarios-total">Total</th>
+    <th id="stats-header-scenarios-passed">Passed</th>
+    <th id="stats-header-scenarios-failed">Failed</th>
+    <th id="stats-header-steps-total">Total</th>
+    <th id="stats-header-steps-passed" style="background-color:#C5D88A;">Passed</th>
+    <th id="stats-header-steps-failed" style="background-color:#D88A8A;">Failed</th>
+    <th id="stats-header-steps-skipped" style="background-color:#2DEAEC;">Skipped</th>
+    <th id="stats-header-steps-pending" style="background-color:#ebcc81;">Pending</th>
+    <th id="stats-header-duration">Duration</th>
+    <th id="stats-header-status">Status</th>
+</tr>
+
+                    <tr>
+                        <td><a id="stats-E2E Test" href="dpath.feature.html">E2E Test</a></td>
+                        <td id="stats-number-scenarios-E2E Test">1</td>
+                        <td id="stats-number-scenarios-passed-E2E Test">0</td>
+                        <td id="stats-number-scenarios-failed-E2E Test">1</td>
+                        <td id="stats-number-steps-E2E Test">9</td>
+                        <td id="stats-number-steps-passed-E2E Test">7</td>
+                        <td id="stats-number-steps-failed-E2E Test">1</td>
+                        <td id="stats-number-steps-skipped-E2E Test">1</td>
+                        <td id="stats-number-steps-pending-E2E Test">0</td>
+                        <td id="stats-duration-E2E Test">1 min and 38 secs and 274 ms</td>
+                        <td id="stats-status-E2E Test" style="background-color: #D88A8A;">failed</td></tr>
+
+                </table>
+
+            </div>
+
+		<div style="color:black;">
+
+            <div class="feature-tags">@smoke</div>
+            <div class="failed"><div class="feature-line"><span class="feature-keyword">Feature:</span> E2E Test</div></div>
+            
+
+                            <div class="feature-tags"></div>
+                <div class="failed"><span class="scenario-keyword">Scenario: </span> <span class="scenario-name">Happy path flow - from entering site to purchase confirmation</span></div>
+                                  <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">I am on default Dollskill page</span><span class="step-duration">8 secs and 445 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">When  </span><span class="step-name">I search for needed product</span><span class="step-duration">17 secs and 398 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">choose product</span><span class="step-duration">7 secs and 772 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">add product to Cart</span><span class="step-duration">78 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">proceed to Shopping Cart page</span><span class="step-duration">6 secs and 580 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">I proceed to Checkout page</span><span class="step-duration">5 secs and 245 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">I login with existing customer</span><span class="step-duration">12 secs and 261 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="failed"><span class="step-keyword">And  </span><span class="step-name">I Place order</span><span class="step-duration">40 secs and 492 ms</span><div class="step-error-message"><pre>org.openqa.selenium.TimeoutException: Timed out after 40 seconds waiting for visibility of element located by By.cssSelector: #submit-btn
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'MacBook-Pro-vadim.local', ip: '192.168.0.155', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/3q/x1_7r_k10j54wk8jdk439m8c0000gn/T/.org.chromium.Chromium.9lpVNW}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.111, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f54cef61e0a56ea2f70934ab031d70f6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.maven.classes.dpath.I_Place_order(dpath.java:123)
+	at ✽.And I Place order(dpath.feature:12)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#submit-btn"}
+  (Session info: chrome=47.0.2526.111)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'MacBook-Pro-vadim.local', ip: '192.168.0.155', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/3q/x1_7r_k10j54wk8jdk439m8c0000gn/T/.org.chromium.Chromium.9lpVNW}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.111, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f54cef61e0a56ea2f70934ab031d70f6
+*** Element info: {Using=css selector, value=#submit-btn}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:861)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.maven.classes.dpath.I_Place_order(dpath.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:34)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:30)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:89)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:40)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:94)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">Then  </span><span class="step-name">I should see Confirmation page</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                            
+	</div>
+	</div>
+
+
+	<div class="container_12">
+		<div class="grid_12 hr"></div>
+		<div class="grid_12 footer">
+            <p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.22 - 27-01-2016 14:19:40</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</body>

@@ -41,7 +41,7 @@
                 <version>0.0.5</version>
                 <dependencies>
                     <dependency>
-                        <groupId>com.googlecode.totallylazy</groupId>
+                        <groupId>totallylazy</groupId>
                         <artifactId>totallylazy</artifactId>
                         <version>991</version>
                         <scope>system</scope>
@@ -152,7 +152,7 @@
             <version>2.48.2</version>
         </dependency>
         <dependency>
-            <groupId>com.googlecode.totallylazy</groupId>
+            <groupId>totallylazy</groupId>
             <artifactId>totallylazy</artifactId>
             <version>1.20</version>
             <scope>system</scope>
@@ -162,6 +162,11 @@
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
             <version>0.0.24</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>3.2</version>
         </dependency>
 
 

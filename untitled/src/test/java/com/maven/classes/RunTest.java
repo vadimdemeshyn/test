@@ -19,7 +19,9 @@ import org.junit.runner.RunWith;
         "html:target/cucumber-html-report",
         "json:target/cucumber.json"
 },
-        features = "src/test/resources/com.maven.resources")
+        features = "src/test/resources/com.maven.resources",
+        glue = "src/test/java/com/maven/classes"
+)
 
 
 

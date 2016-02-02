@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="" />
+    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java" />
+    </list>
     <ignored path="proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6020067">
-              <caret line="34" column="103" selection-start-line="34" selection-start-column="103" selection-end-line="34" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.35117057">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -47,7 +49,17 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/com.maven.resources/eetest.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dpath.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/com.maven.resources/dpath.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -57,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="86" column="82" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -79,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -112,7 +124,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/eesmoke.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/eesmoke.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/eesteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/eesteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com.maven.resources/eetest.feature" />
@@ -120,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/eeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
       </list>
     </option>
@@ -137,8 +149,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1880" />
-    <option name="y" value="45" />
+    <option name="x" value="54" />
+    <option name="y" value="38" />
     <option name="width" value="1836" />
     <option name="height" value="952" />
   </component>
@@ -273,7 +285,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: eetest">
+  <component name="RunManager" selected="Cucumber java.Feature: dpath">
     <configuration default="false" name="Feature: eesmoke" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -285,30 +297,6 @@
       <option name="GLUE" value="" />
       <option name="myNameFilter" value="" />
       <option name="myGeneratedName" value="Feature: eesmoke" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="proj" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Feature: googleTranslate" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/com.maven.resources/googleTranslate.feature" />
-      <option name="GLUE" value="com.maven.classes" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: googleTranslate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -381,6 +369,30 @@
       <option name="GLUE" value="com.maven.classes" />
       <option name="myNameFilter" value="" />
       <option name="myGeneratedName" value="Feature: eetest" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="proj" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Feature: dpath" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/com.maven.resources/dpath.feature" />
+      <option name="GLUE" value="com.maven.classes" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: dpath" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -818,18 +830,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: eesmoke" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: googleTranslate" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Happy path flow - from entering site to purchase confirmation" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: 1" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: eetest" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Happy path flow - from entering site to purchase confirmation" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: 1" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: eetest" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: dpath" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: eetest" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: 1" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: eesmoke" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Happy path flow - from entering site to purchase confirmation" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: googleTranslate" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: dpath" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: eetest" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: 1" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: eesmoke" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Happy path flow - from entering site to purchase confirmation" />
       </list>
     </recent_temporary>
   </component>
@@ -851,13 +863,13 @@
       <workItem from="1453911300719" duration="1180000" />
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
-      <workItem from="1454339145596" duration="1383000" />
+      <workItem from="1454339145596" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__eesmoke - 2016.02.01 at 17h 03m 30s.xml">
-      <configuration name="Feature: eesmoke" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__dpath - 2016.02.02 at 13h 40m 19s.xml">
+      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__eesmoke - 2016.02.01 at 17h 03m 57s.xml">
       <configuration name="Feature: eesmoke" configurationId="CucumberJavaRunConfigurationType" />
@@ -888,10 +900,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19584000" />
+    <option name="totallyTimeSpent" value="21011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1880" y="45" width="1836" height="952" extended-state="0" />
+    <frame x="54" y="38" width="1836" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1269,34 +1281,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com.maven.resources/eetest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com.maven.resources/dpath.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.096463025">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="82" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1311,10 +1299,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com.maven.resources/dpath.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6020067">
-          <caret line="34" column="103" selection-start-line="34" selection-start-column="103" selection-end-line="34" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.35117057">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
         </state>
       </provider>

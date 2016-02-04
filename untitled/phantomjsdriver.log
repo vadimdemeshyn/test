@@ -26783,3 +26783,125 @@
     "function": ""
   }
 ]
+[INFO  - 2016-02-04T14:42:11.311Z] GhostDriver - Main - running on port 17470
+[INFO  - 2016-02-04T14:42:11.376Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-02-04T14:42:11.376Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - page.customHeaders:  - {}
+[INFO  - 2016-02-04T14:42:11.376Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"chrome","version":""}
+[INFO  - 2016-02-04T14:42:11.376Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-04T14:42:11.376Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 795ce6c0-cb4d-11e5-8323-53ac677167e5
+[ERROR - 2016-02-04T14:42:12.178Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-02-04T14:42:12.178Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js",
+    "line": 12,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js",
+    "line": 10,
+    "function": "create"
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js",
+    "line": 2089,
+    "function": ""
+  }
+]
+[ERROR - 2016-02-04T14:42:13.256Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/' - Console Error (msg): TypeError: 'undefined' is not an object (evaluating 'Minicart.prototype.initAfterEvents')
+[ERROR - 2016-02-04T14:42:13.256Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js",
+    "line": 997,
+    "function": ""
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js",
+    "line": 1004,
+    "function": ""
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js",
+    "line": 519,
+    "function": ""
+  }
+]
+[ERROR - 2016-02-04T14:42:15.797Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-02-04T14:42:15.798Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js",
+    "line": 12,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js",
+    "line": 10,
+    "function": "create"
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js",
+    "line": 2089,
+    "function": ""
+  }
+]
+[ERROR - 2016-02-04T14:42:16.542Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra' - Console Error (msg): TypeError: 'undefined' is not an object (evaluating 'Minicart.prototype.initAfterEvents')
+[ERROR - 2016-02-04T14:42:16.542Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js",
+    "line": 997,
+    "function": ""
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js",
+    "line": 1004,
+    "function": ""
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js",
+    "line": 519,
+    "function": ""
+  }
+]
+[ERROR - 2016-02-04T14:42:19.211Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/never-say-never-dreamie-bra.html' - Console Error (msg): TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-02-04T14:42:19.211Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/never-say-never-dreamie-bra.html' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js",
+    "line": 12,
+    "function": "addMethods"
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js",
+    "line": 10,
+    "function": "create"
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js",
+    "line": 2414,
+    "function": ""
+  }
+]
+[ERROR - 2016-02-04T14:42:19.782Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/never-say-never-dreamie-bra.html' - Console Error (msg): ReferenceError: Can't find variable: Stockstatus
+[ERROR - 2016-02-04T14:42:19.783Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/never-say-never-dreamie-bra.html' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/never-say-never-dreamie-bra.html",
+    "line": 755,
+    "function": ""
+  }
+]
+[ERROR - 2016-02-04T14:42:20.003Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/never-say-never-dreamie-bra.html' - Console Error (msg): TypeError: 'undefined' is not an object (evaluating 'Minicart.prototype.initAfterEvents')
+[ERROR - 2016-02-04T14:42:20.003Z] Session [795ce6c0-cb4d-11e5-8323-53ac677167e5] - Page at 'http://dkstage.dollskill.com/never-say-never-dreamie-bra.html' - Console Error (stack): [
+  {
+    "file": "http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js",
+    "line": 997,
+    "function": ""
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js",
+    "line": 1004,
+    "function": ""
+  },
+  {
+    "file": "http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js",
+    "line": 519,
+    "function": ""
+  }
+]

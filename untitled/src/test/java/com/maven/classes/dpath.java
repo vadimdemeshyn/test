@@ -53,7 +53,8 @@ public class dpath extends Config {
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
-        browser.get("http://dkstage.dollskill.com/never-say-never-dreamie-bra.html");
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
+        searchedProduct.click();
 
         //selecting options of product
 

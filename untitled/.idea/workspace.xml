@@ -48,8 +48,8 @@
       <file leaf-file-name="dpath.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67725754">
-              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.27591974">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -823,7 +823,7 @@
       <workItem from="1453911300719" duration="1180000" />
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
-      <workItem from="1454339145596" duration="5025000" />
+      <workItem from="1454339145596" duration="5272000" />
     </task>
     <servers />
   </component>
@@ -860,7 +860,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23226000" />
+    <option name="totallyTimeSpent" value="23473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1913" y="37" width="1836" height="952" extended-state="0" />
@@ -1086,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67725754">
-          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.27591974">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

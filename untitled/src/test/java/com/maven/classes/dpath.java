@@ -26,7 +26,7 @@ public class dpath extends Config {
 
         browser.get("http://dkstage.dollskill.com/");
 
-        js.executeScript("cbar_close_popup(9728);");
+        //js.executeScript("cbar_close_popup(9728);");
 
     }
 

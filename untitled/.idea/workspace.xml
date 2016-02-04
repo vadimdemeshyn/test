@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" />
-    </list>
+    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="" />
     <ignored path="proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +56,8 @@
       <file leaf-file-name="dpath.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47658864">
-              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.33277592">
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -847,7 +845,7 @@
       <workItem from="1453911300719" duration="1180000" />
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
-      <workItem from="1454339145596" duration="10428000" />
+      <workItem from="1454339145596" duration="11809000" />
     </task>
     <servers />
   </component>
@@ -858,8 +856,11 @@
     <history-entry file="Feature__dpath - 2016.02.03 at 14h 45m 23s.xml">
       <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__eesmoke - 2016.02.01 at 17h 04m 04s.xml">
-      <configuration name="Feature: eesmoke" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__dpath - 2016.02.04 at 17h 05m 52s.xml">
+      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dpath - 2016.02.04 at 17h 08m 28s.xml">
+      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__eetest - 2016.02.01 at 17h 13m 37s.xml">
       <configuration name="Feature: eetest" configurationId="CucumberJavaRunConfigurationType" />
@@ -876,15 +877,12 @@
     <history-entry file="Feature__eetest - 2016.02.01 at 17h 26m 45s.xml">
       <configuration name="Feature: eetest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__googleTranslate - 2016.02.01 at 17h 02m 28s.xml">
-      <configuration name="Feature: googleTranslate" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Happy_path_flow_-_from_entering_site_to_purchase_confirmation - 2016.02.01 at 17h 03m 56s.xml">
       <configuration name="Scenario: Happy path flow - from entering site to purchase confirmation" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28629000" />
+    <option name="totallyTimeSpent" value="30010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1913" y="37" width="1836" height="952" extended-state="0" />
@@ -1110,8 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47658864">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.33277592">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

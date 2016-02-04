@@ -54,6 +54,12 @@ public class dpath extends Config {
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
         searchedProduct.click();
 
+        File file = new File("out.txt"); //Your file
+        FileOutputStream fos = new FileOutputStream(file);
+        PrintStream ps = new PrintStream(fos);
+        System.setOut(ps);
+        System.out.println(browser.getPageSource());
+
         //selecting options of product
 
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
@@ -61,11 +67,7 @@ public class dpath extends Config {
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
 
-        File file = new File("out.txt"); //Your file
-        FileOutputStream fos = new FileOutputStream(file);
-        PrintStream ps = new PrintStream(fos);
-        System.setOut(ps);
-        System.out.println(browser.getPageSource());
+
 
     }
 

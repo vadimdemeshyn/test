@@ -62,9 +62,7 @@ public class dpath extends Config {
         colour.sendKeys("BLACK");
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
-
-        FileUtils.copyFile(scrFile, new File("screenshot.png"));
-
+        
 
 
     }

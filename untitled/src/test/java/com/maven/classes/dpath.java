@@ -22,7 +22,6 @@ public class dpath extends Config {
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page() {
 
-        browser.manage().window().maximize();
         browser.get("http://dkstage.dollskill.com/");
 
         js.executeScript("cbar_close_popup(9728);");
@@ -47,6 +46,7 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException {
+
         browser.manage().window().setSize(new Dimension(1920,1080));
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
@@ -54,14 +54,11 @@ public class dpath extends Config {
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
         searchedProduct.click();
 
-        File file = new File("out.txt"); //Your file
-        FileOutputStream fos = new FileOutputStream(file);
-        PrintStream ps = new PrintStream(fos);
-        System.setOut(ps);
-        System.out.println(browser.getPageSource());
+
 
         //selecting options of product
-
+        File screenshotFile=((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));

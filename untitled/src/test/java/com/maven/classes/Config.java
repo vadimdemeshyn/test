@@ -44,7 +44,7 @@ public class Config {
 
     //WebDriver browser = new FirefoxDriver();
 
-    public WebDriverWait delay = new WebDriverWait(browser, 40);
+    public WebDriverWait delay = new WebDriverWait(browser, 120);
 
     //Btw are there invalid symbols which are forbidden to use in fields?
 

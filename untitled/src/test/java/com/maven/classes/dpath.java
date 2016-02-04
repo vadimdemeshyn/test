@@ -6,6 +6,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
@@ -54,13 +55,14 @@ public class dpath extends Config {
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/never-say-never-dreamie-bra.html']")));
-        js.executeScript("arguments[0].scrollIntoView(true);", searchedProduct);
-        Thread.sleep(500);
+        Actions actions = new Actions(browser);
+        actions.moveToElement(searchedProduct);
+        actions.click();
+        actions.perform();
         searchedProduct.click();
 
         //selecting options of product
         FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
-        System.out.println(browser.getPageSource());
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[80]']")));
         colour.sendKeys("BLACK");
 

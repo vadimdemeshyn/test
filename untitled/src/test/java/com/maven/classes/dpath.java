@@ -21,19 +21,15 @@ public class dpath extends Config {
 
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page() {
-        browser.manage().window().setSize(new Dimension(1920,1080));
-
 
         browser.get("http://dkstage.dollskill.com/");
 
         js.executeScript("cbar_close_popup(9728);");
-        
+
     }
 
     @When("^I search for needed product$")
     public void I_search_for_needed_product() throws IOException {
-        browser.manage().window().setSize(new Dimension(1920,1080));
-
 
         WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
         searchIcon.click();
@@ -45,7 +41,7 @@ public class dpath extends Config {
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();
 
-
+        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
     }
 
@@ -64,6 +60,8 @@ public class dpath extends Config {
         colour.sendKeys("BLACK");
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
+
+        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
 
 

@@ -50,6 +50,8 @@ public class dpath extends Config {
     @And("^choose product$")
     public void choose_product() {
 
+        browser.manage().window().maximize();
+
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 

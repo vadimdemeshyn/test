@@ -35,7 +35,7 @@ public class dpath extends Config {
     }
 
     @When("^I search for needed product$")
-    public void I_search_for_needed_product() {
+    public void I_search_for_needed_product() throws IOException {
 
 
         WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
@@ -47,6 +47,9 @@ public class dpath extends Config {
 
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();
+
+
+        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
     }
 
@@ -62,7 +65,6 @@ public class dpath extends Config {
 
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
         searchedProduct.click();
-        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
         //selecting options of product
 

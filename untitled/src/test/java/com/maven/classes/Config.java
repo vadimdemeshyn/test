@@ -2,6 +2,8 @@ package com.maven.classes;
 
 import bsh.Capabilities;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
@@ -34,6 +36,9 @@ public class Config {
     /*File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
     WebDriver browser = new ChromeDriver();*/
+
+    File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
+
 
     JavascriptExecutor js = (JavascriptExecutor) browser;
 

@@ -32,7 +32,6 @@ public class dpath extends Config {
 
     @When("^I search for needed product$")
     public void I_search_for_needed_product() throws IOException {
-        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
 
         WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
         searchIcon.click();
@@ -44,17 +43,17 @@ public class dpath extends Config {
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();
 
-        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
     }
 
     @And("^choose product$")
     public void choose_product() throws IOException {
+        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
+
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
-        searchedProduct.click();
+        browser.get("http://dkstage.dollskill.com/never-say-never-dreamie-bra.html");
 
         //selecting options of product
 
@@ -62,6 +61,7 @@ public class dpath extends Config {
         colour.sendKeys("BLACK");
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
+        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
 
 

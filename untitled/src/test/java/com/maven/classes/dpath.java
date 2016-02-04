@@ -47,6 +47,7 @@ public class dpath extends Config {
     @And("^choose product$")
     public void choose_product() throws IOException {
 
+        browser.manage().window().setSize(new Dimension(1200,960));
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
@@ -57,14 +58,17 @@ public class dpath extends Config {
 
         //selecting options of product
         FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
+        browser.manage().window().setSize(new Dimension(1200,960));
 
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
+        browser.manage().window().setSize(new Dimension(1200,960));
 
 
 
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
+        browser.manage().window().setSize(new Dimension(1200,960));
 
 
 

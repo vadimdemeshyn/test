@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" />
     </list>
     <ignored path="proj.iws" />
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,8 +49,8 @@
       <file leaf-file-name="dpath.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50167227">
-              <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.70234114">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/test/java/eeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
       </list>
     </option>
   </component>
@@ -823,7 +824,7 @@
       <workItem from="1453911300719" duration="1180000" />
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
-      <workItem from="1454339145596" duration="5784000" />
+      <workItem from="1454339145596" duration="6048000" />
     </task>
     <servers />
   </component>
@@ -860,7 +861,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23985000" />
+    <option name="totallyTimeSpent" value="24249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1913" y="37" width="1836" height="952" extended-state="0" />
@@ -1079,15 +1080,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50167227">
-          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.70234114">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

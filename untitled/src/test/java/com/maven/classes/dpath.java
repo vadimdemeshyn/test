@@ -22,6 +22,8 @@ public class dpath extends Config {
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page() {
 
+        browser.manage().window().maximize();
+
         browser.get("http://dkstage.dollskill.com/");
 
         js.executeScript("cbar_close_popup(9728);");
@@ -30,6 +32,7 @@ public class dpath extends Config {
 
     @When("^I search for needed product$")
     public void I_search_for_needed_product() throws IOException {
+        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
 
         WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
         searchIcon.click();
@@ -47,7 +50,6 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException {
-        browser.manage().window().setSize(new Dimension(1280,1080));
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 

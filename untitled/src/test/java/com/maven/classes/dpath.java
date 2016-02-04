@@ -5,10 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import java.io.*;
@@ -28,7 +25,7 @@ public class dpath extends Config {
 
         browser.get("http://dkstage.dollskill.com/");
 
-        browser.manage().window().maximize();
+        browser.manage().window().setSize(new Dimension(1920,1080));
         js.executeScript("cbar_close_popup(9728);");
 
 

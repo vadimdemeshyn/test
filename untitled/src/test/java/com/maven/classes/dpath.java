@@ -54,21 +54,14 @@ public class dpath extends Config {
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
         searchedProduct.click();
 
-
-
         //selecting options of product
         FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
-        browser.manage().window().setSize(new Dimension(1200,960));
 
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
-        browser.manage().window().setSize(new Dimension(1200,960));
-
-
 
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
-        browser.manage().window().setSize(new Dimension(1200,960));
 
 
 

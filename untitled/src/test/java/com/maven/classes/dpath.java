@@ -22,7 +22,6 @@ public class dpath extends Config {
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page() {
 
-        browser.manage().window().setSize(new Dimension(1920, 1080));
 
 
         browser.get("http://dkstage.dollskill.com/");
@@ -49,6 +48,7 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException, InterruptedException {
+        browser.manage().window().setSize(new Dimension(1920, 1080));
 
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());

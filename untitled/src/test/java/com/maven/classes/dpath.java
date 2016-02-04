@@ -6,6 +6,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import java.io.*;
@@ -48,15 +49,15 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException, InterruptedException {
-        browser.manage().window().setSize(new Dimension(1920, 1080));
 
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/never-say-never-dreamie-bra.html']")));
+        js.executeScript("arguments[0].scrollIntoView(true);", searchedProduct);
+        Thread.sleep(500);
         searchedProduct.click();
-        Thread time = null;
-        time.sleep(1);
+
         //selecting options of product
         FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
         System.out.println(browser.getPageSource());

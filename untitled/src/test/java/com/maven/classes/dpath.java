@@ -49,9 +49,6 @@ public class dpath extends Config {
     public void choose_product() throws IOException {
         browser.manage().window().setSize(new Dimension(1920,1080));
 
-        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
-
-
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://dkstage.dollskill.com/never-say-never-dreamie-bra.html\"]")));
@@ -63,9 +60,12 @@ public class dpath extends Config {
         colour.sendKeys("BLACK");
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
-        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
-
+        File file = new File("out.txt"); //Your file
+        FileOutputStream fos = new FileOutputStream(file);
+        PrintStream ps = new PrintStream(fos);
+        System.setOut(ps);
+        System.out.println(browser.getPageSource());
 
     }
 

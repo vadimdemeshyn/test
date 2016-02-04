@@ -60,10 +60,10 @@ public class dpath extends Config {
         //selecting options of product
         FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
 
-        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
+        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[80]']")));
         colour.sendKeys("BLACK");
 
-        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
+        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[125]']")));
         size.sendKeys("SMALL");
 
 

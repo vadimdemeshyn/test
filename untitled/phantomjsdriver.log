@@ -26905,3 +26905,41 @@
     "function": ""
   }
 ]
+[INFO  - 2016-02-04T14:53:54.415Z] GhostDriver - Main - running on port 8606
+[INFO  - 2016-02-04T14:53:54.480Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-02-04T14:53:54.480Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.customHeaders:  - {}
+[INFO  - 2016-02-04T14:53:54.480Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-04T14:53:54.480Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924
+[ERROR - 2016-02-04T14:53:55.292Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-02-04T14:53:55.292Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  addMethods (http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js:12)
+  create (http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js:10)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js:2089)
+[ERROR - 2016-02-04T14:53:56.097Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'Minicart.prototype.initAfterEvents')
+[ERROR - 2016-02-04T14:53:56.097Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  (anonymous function) (http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js:997)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js:1004)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/981fccddbda45ff4c8dbb45ba66d8134.js:519)
+[ERROR - 2016-02-04T14:53:58.883Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-02-04T14:53:58.883Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  addMethods (http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js:12)
+  create (http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js:10)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js:2089)
+[ERROR - 2016-02-04T14:53:59.625Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'Minicart.prototype.initAfterEvents')
+[ERROR - 2016-02-04T14:53:59.625Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  (anonymous function) (http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js:997)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js:1004)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/a7a93e447880faec33584d8019c65cf0.js:519)
+[ERROR - 2016-02-04T14:54:02.494Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: TypeError: Requested keys of a value that is not an object.
+[ERROR - 2016-02-04T14:54:02.495Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  addMethods (http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js:12)
+  create (http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js:10)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js:2414)
+[ERROR - 2016-02-04T14:54:03.083Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: ReferenceError: Can't find variable: Stockstatus
+[ERROR - 2016-02-04T14:54:03.083Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  (anonymous function) (http://dkstage.dollskill.com/never-say-never-dreamie-bra.html:757)
+[ERROR - 2016-02-04T14:54:03.366Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'Minicart.prototype.initAfterEvents')
+[ERROR - 2016-02-04T14:54:03.366Z] Session [1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924] - page.onError - stack:
+  (anonymous function) (http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js:997)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js:1004)
+  (anonymous function) (http://dkstage.dollskill.com/media/js/729b3f6d1fca51589ca0e3fba547d540.js:519)

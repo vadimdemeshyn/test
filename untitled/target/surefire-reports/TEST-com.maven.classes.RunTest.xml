@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.maven.classes.RunTest" time="12.681" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.maven.classes.RunTest" time="13.509" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="cucumber.options" value=" --tags @smoke"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="classworlds.conf" value="/usr/local/maven/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
@@ -36,7 +36,7 @@
     <property name="user.timezone" value="America/Detroit"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="ANSI_X3.4-1968"/>
     <property name="user.name" value="theadmin"/>
     <property name="java.class.path" value="/usr/local/maven/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>

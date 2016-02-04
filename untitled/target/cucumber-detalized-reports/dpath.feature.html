@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Cucumber-JVM Html Reports - Feature: E2E Test </title>
+	<link rel="stylesheet" href="blue/css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/skin/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/960.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/text.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="blue/favicon.ico" />
+    <style>
+    .CodeMirror-scroll {
+      height: auto;
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+
+.feature-keyword{font-weight:bold;}
+.feature-description{padding-left:15px;font-style:italic;background-color:beige;}
+.feature-role{font-weight:bold;}
+.feature-action{font-weight:bold;}
+.feature-value{font-weight:bold;}
+.feature-tags{padding-top:10px;padding-left:15px;color:darkblue;}
+.scenario-keyword{font-weight:bold;padding-left:15px;}
+.scenario-scenario_name{padding-left:15px;}
+.step-keyword{font-weight:bold;padding-left:50px;}
+.step-error-message{background-color:#FFEEEE;padding-left:50px;border: 1px solid #D88A8A;}
+.step-duration{float:right;padding-right:15px;}
+.passed{background-color:#C5D88A;}
+.failed{background-color:#D88A8A;}
+.skipped{background-color:#2DEAEC;}
+.undefined{background-color: #ebcc81;}
+
+table.stats-table {
+color:black;
+border-width: 1px;
+border-spacing: 2px;
+border-style: outset;
+border-color: gray;
+border-collapse: collapse;
+background-color: white;
+}
+table.stats-table th {
+color:black;
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: #66CCEE;
+-moz-border-radius: ;
+}
+table.stats-table td {
+color:black;
+text-align: center;
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: white;
+-moz-border-radius: ;
+}
+
+table.data-table {
+    color: black;
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: #d6d6d6;
+    border-collapse: collapse;
+    background-color: beige;
+}
+table.data-table th {
+    color:black;
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #d6d6d6;
+    background-color: #66CCEE;
+}
+table.data-table td {
+    color:black;
+    text-align: center;
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #d6d6d6;
+    background-color: beige;
+}
+
+.data {
+   padding-left:50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.output-data {
+    padding-left:50px;
+    background-color: beige;
+}
+
+.doc-string {
+    width:auto;
+    display:inline-block;
+    margin: 10px auto 10px 70px;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.35);
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 95%;
+}
+</style>
+
+</head>
+<body id="top">
+	<div id="fullwidth_header">
+		<div class="container_12">
+			<h1 class="grid_4 logo"><a href="feature-overview.html" class='ie6fix'>Cucumber</a></h1>
+			<div class="grid_6" id="nav">
+				<ul>
+                    					<li><a href="tag-overview.html">Tag Overview</a></li>
+					<li><a href="feature-overview.html">Feature Overview</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="fullwidth_gradient">
+		<div class="container_12">
+			<div class="grid_9 heading">
+				<h2 id="feature-title">Feature Result for Build: 1</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container_12">
+		<div class="grid_12">
+
+            <div>
+                <table class="stats-table">
+                    <tr>
+    <th></th>
+    <th id="stats-header-scenarios" colspan="3">Scenarios</th>
+    <th id="stats-header-steps" colspan="5">Steps</th>
+    <th></th>
+    <th></th>
+</tr>
+<tr>
+    <th id="stats-header-feature">Feature</th>
+    <th id="stats-header-scenarios-total">Total</th>
+    <th id="stats-header-scenarios-passed">Passed</th>
+    <th id="stats-header-scenarios-failed">Failed</th>
+    <th id="stats-header-steps-total">Total</th>
+    <th id="stats-header-steps-passed" style="background-color:#C5D88A;">Passed</th>
+    <th id="stats-header-steps-failed" style="background-color:#D88A8A;">Failed</th>
+    <th id="stats-header-steps-skipped" style="background-color:#2DEAEC;">Skipped</th>
+    <th id="stats-header-steps-pending" style="background-color:#ebcc81;">Pending</th>
+    <th id="stats-header-duration">Duration</th>
+    <th id="stats-header-status">Status</th>
+</tr>
+
+                    <tr>
+                        <td><a id="stats-E2E Test" href="dpath.feature.html">E2E Test</a></td>
+                        <td id="stats-number-scenarios-E2E Test">1</td>
+                        <td id="stats-number-scenarios-passed-E2E Test">0</td>
+                        <td id="stats-number-scenarios-failed-E2E Test">1</td>
+                        <td id="stats-number-steps-E2E Test">9</td>
+                        <td id="stats-number-steps-passed-E2E Test">2</td>
+                        <td id="stats-number-steps-failed-E2E Test">1</td>
+                        <td id="stats-number-steps-skipped-E2E Test">6</td>
+                        <td id="stats-number-steps-pending-E2E Test">0</td>
+                        <td id="stats-duration-E2E Test">11 secs and 671 ms</td>
+                        <td id="stats-status-E2E Test" style="background-color: #D88A8A;">failed</td></tr>
+
+                </table>
+
+            </div>
+
+		<div style="color:black;">
+
+            <div class="feature-tags">@smoke</div>
+            <div class="failed"><div class="feature-line"><span class="feature-keyword">Feature:</span> E2E Test</div></div>
+            
+
+                            <div class="feature-tags"></div>
+                <div class="failed"><span class="scenario-keyword">Scenario: </span> <span class="scenario-name">Happy path flow - from entering site to purchase confirmation</span></div>
+                                  <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">I am on default Dollskill page</span><span class="step-duration">3 secs and 227 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">When  </span><span class="step-name">I search for needed product</span><span class="step-duration">3 secs and 358 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="failed"><span class="step-keyword">And  </span><span class="step-name">choose product</span><span class="step-duration">5 secs and 84 ms</span><div class="step-error-message"><pre>org.openqa.selenium.InvalidElementStateException: Error Message => 'Element is not currently interactable and may not be manipulated'
+ caused by Request => {"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"45","Content-Type":"application/json; charset=utf-8","Host":"localhost:17470","User-Agent":"Apache-HttpClient/4.5 (Java/1.7.0_91)"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1454596940954\",\"value\":[\"SMALL\"]}","url":"/value","urlParsed":{"anchor":"","query":"","file":"value","directory":"/","path":"/value","relative":"/value","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/value","queryKey":{},"chunks":["value"]},"urlOriginal":"/session/795ce6c0-cb4d-11e5-8323-53ac677167e5/element/%3Awdc%3A1454596940954/value"}
+Command duration or timeout: 1.26 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: '68CFE259.nexcess.net', ip: '104.207.226.89', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.32-573.7.1.el6.centos.plus.x86_64', java.version: '1.7.0_91'
+Session ID: 795ce6c0-cb4d-11e5-8323-53ac677167e5
+Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
+Capabilities [{platform=LINUX, acceptSslCerts=false, javascriptEnabled=true, browserName=phantomjs, rotatable=false, driverVersion=1.0.4, locationContextEnabled=false, version=1.9.2, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=false, browserConnectionEnabled=false, proxy={proxyType=direct}, nativeEvents=true, webStorageEnabled=false, driverName=ghostdriver, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.maven.classes.dpath.choose_product(dpath.java:70)
+	at ✽.And choose product(dpath.feature:7)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: '68CFE259.nexcess.net', ip: '104.207.226.89', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.32-573.7.1.el6.centos.plus.x86_64', java.version: '1.7.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.maven.classes.dpath.choose_product(dpath.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at cucumber.runtime.Utils$1.call(Utils.java:34)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:30)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:89)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:40)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:94)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.InvalidElementStateException: Error Message => 'Element is not currently interactable and may not be manipulated'
+ caused by Request => {"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"45","Content-Type":"application/json; charset=utf-8","Host":"localhost:17470","User-Agent":"Apache-HttpClient/4.5 (Java/1.7.0_91)"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1454596940954\",\"value\":[\"SMALL\"]}","url":"/value","urlParsed":{"anchor":"","query":"","file":"value","directory":"/","path":"/value","relative":"/value","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/value","queryKey":{},"chunks":["value"]},"urlOriginal":"/session/795ce6c0-cb4d-11e5-8323-53ac677167e5/element/%3Awdc%3A1454596940954/value"}
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: '68CFE259.nexcess.net', ip: '104.207.226.89', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.32-573.7.1.el6.centos.plus.x86_64', java.version: '1.7.0_91'
+Driver info: driver.version: unknown
+</pre></div></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">add product to Cart</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">proceed to Shopping Cart page</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">I proceed to Checkout page</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">I login with existing customer</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">I Place order</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="skipped"><span class="step-keyword">Then  </span><span class="step-name">I should see Confirmation page</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                            
+	</div>
+	</div>
+
+
+	<div class="container_12">
+		<div class="grid_12 hr"></div>
+		<div class="grid_12 footer">
+            <p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.22 - 04-02-2016 09:42:23</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</body>

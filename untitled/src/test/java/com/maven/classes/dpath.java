@@ -48,6 +48,8 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException {
+        browser.manage().window().setSize(new Dimension(1920,1080));
+
         File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
 
 

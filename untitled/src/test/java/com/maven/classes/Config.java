@@ -37,7 +37,6 @@ public class Config {
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
     WebDriver browser = new ChromeDriver();*/
 
-    File screenshotFile=((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
 
 
     JavascriptExecutor js = (JavascriptExecutor) browser;

@@ -26,7 +26,7 @@ public class dpath extends Config {
 
         browser.get("http://dkstage.dollskill.com/");
 
-        //js.executeScript("cbar_close_popup(9728);");
+        js.executeScript("cbar_close_popup(9728);");
 
     }
 
@@ -50,11 +50,17 @@ public class dpath extends Config {
     public void choose_product() throws IOException, InterruptedException {
         browser.manage().window().setSize(new Dimension(1920, 1080));
 
+        File screenshotFile=((browser).getScreenshotAs(OutputType.FILE);
+
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
+        FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
 
-        browser.get("http://dkstage.dollskill.com/never-say-never-dreamie-bra.html");
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("img[alt='Never Say Never Dreamie Bra']")));
+        searchedProduct.click();
 
+
+        System.out.println(browser.getPageSource());
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[80]']")));
         colour.sendKeys("BLACK");
 

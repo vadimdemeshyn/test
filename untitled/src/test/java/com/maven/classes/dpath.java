@@ -47,7 +47,7 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException {
-        browser.manage().window().setSize(new Dimension(1920,1080));
+        browser.manage().window().setSize(new Dimension(1280,1080));
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 

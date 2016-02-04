@@ -22,7 +22,7 @@ public class dpath extends Config {
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page() {
 
-
+        browser.manage().window().maximize();
 
         browser.get("http://dkstage.dollskill.com/");
 
@@ -59,7 +59,7 @@ public class dpath extends Config {
         time.sleep(1);
         //selecting options of product
         FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
-
+        System.out.println(browser.getPageSource());
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[80]']")));
         colour.sendKeys("BLACK");
 

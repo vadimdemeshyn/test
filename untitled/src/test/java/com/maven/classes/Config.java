@@ -24,18 +24,18 @@ public class Config {
 
 
 
-    /*DesiredCapabilities caps = DesiredCapabilities.chrome();
+    DesiredCapabilities caps = DesiredCapabilities.chrome();
 
     File file = new File("phantomjs-1.9.8-linux-i686/bin/phantomjs");
 
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
 
-    PhantomJSDriver browser = new PhantomJSDriver(caps);*/
+    PhantomJSDriver browser = new PhantomJSDriver(caps);
 
 
-    File file = new File("chromedriver");
+    /*File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-    WebDriver browser = new ChromeDriver();
+    WebDriver browser = new ChromeDriver();*/
 
     File screenshotFile=((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
 
@@ -44,7 +44,7 @@ public class Config {
 
     //WebDriver browser = new FirefoxDriver();
 
-    public WebDriverWait delay = new WebDriverWait(browser, 120);
+    public WebDriverWait delay = new WebDriverWait(browser, 10);
 
     //Btw are there invalid symbols which are forbidden to use in fields?
 

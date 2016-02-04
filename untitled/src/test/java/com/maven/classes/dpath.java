@@ -4,7 +4,10 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
@@ -48,7 +51,9 @@ public class dpath extends Config {
     }
 
     @And("^choose product$")
-    public void choose_product() {
+    public void choose_product() throws IOException {
+
+        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
 
         browser.manage().window().maximize();
 
@@ -64,6 +69,8 @@ public class dpath extends Config {
         colour.sendKeys("BLACK");
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
+
+        FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
 
     }

@@ -39,7 +39,7 @@ public class dpath extends Config {
 
         WebElement searchField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#search")));
         searchField.click();
-        searchField.sendKeys("Never Say Never Dreamie Bra");
+        searchField.sendKeys("Test Product");
 
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();
@@ -52,7 +52,7 @@ public class dpath extends Config {
 
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/never-say-never-dreamie-bra.html']")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/test-product.html']")));
          Assert.assertTrue(searchedProduct.isDisplayed());
         searchedProduct.click();
 
@@ -64,7 +64,7 @@ public class dpath extends Config {
         size.sendKeys("SMALL");
         Assert.assertTrue(size.isDisplayed());
 
-        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
+        File scrFile = browser.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
 

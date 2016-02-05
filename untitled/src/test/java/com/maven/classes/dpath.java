@@ -51,7 +51,7 @@ public class dpath extends Config {
     public void choose_product() throws IOException {
 
 
-        Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
+        Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Test+Product", browser.getCurrentUrl());
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/test-product.html']")));
          Assert.assertTrue(searchedProduct.isDisplayed());
         searchedProduct.click();

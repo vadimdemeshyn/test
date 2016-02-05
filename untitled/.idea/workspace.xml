@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" />
     </list>
     <ignored path="proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35117057">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dpath.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dpath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47658864">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/test/java/eeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/RunTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
       </list>
     </option>
   </component>
@@ -120,8 +119,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1913" />
-    <option name="y" value="37" />
+    <option name="x" value="66" />
+    <option name="y" value="88" />
     <option name="width" value="1836" />
     <option name="height" value="952" />
   </component>
@@ -179,6 +178,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.maven.resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -782,14 +839,11 @@
       <workItem from="1453911300719" duration="1180000" />
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
-      <workItem from="1454339145596" duration="17579000" />
+      <workItem from="1454339145596" duration="18727000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__dpath - 2016.02.02 at 13h 40m 19s.xml">
-      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__dpath - 2016.02.03 at 14h 45m 23s.xml">
       <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -811,18 +865,21 @@
     <history-entry file="Feature__dpath - 2016.02.04 at 18h 19m 10s.xml">
       <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__eetest - 2016.02.01 at 17h 16m 08s.xml">
-      <configuration name="Feature: eetest" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__dpath - 2016.02.05 at 13h 06m 53s.xml">
+      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__eetest - 2016.02.01 at 17h 26m 45s.xml">
-      <configuration name="Feature: eetest" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__dpath - 2016.02.05 at 13h 13m 13s.xml">
+      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dpath - 2016.02.05 at 13h 18m 57s.xml">
+      <configuration name="Feature: dpath" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35780000" />
+    <option name="totallyTimeSpent" value="36928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1913" y="37" width="1836" height="952" extended-state="0" />
+    <frame x="66" y="88" width="1836" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1035,21 +1092,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/dpath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47658864">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35117057">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

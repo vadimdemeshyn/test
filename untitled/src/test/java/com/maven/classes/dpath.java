@@ -50,15 +50,11 @@ public class dpath extends Config {
     public void choose_product() throws IOException, InterruptedException {
         browser.manage().window().setSize(new Dimension(1920, 1080));
 
-        File screenshotFile=(browser).getScreenshotAs(OutputType.FILE);
-
-
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/never-say-never-dreamie-bra.html']")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='top']/body/div[3]/div[4]/div/main/main/ul/li[1]/div/a[2]/h3")));
         searchedProduct.click();
 
-        System.out.println(browser.getPageSource());
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
 

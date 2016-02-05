@@ -22,7 +22,7 @@ public class dpath extends Config {
     @Given("^I am on default Dollskill page$")
     public void I_am_on_default_Dollskill_page() {
 
-        browser.manage().window().maximize();
+        browser.manage().window().setSize(new Dimension(1920,1080));
 
         browser.get("http://dkstage.dollskill.com/");
 

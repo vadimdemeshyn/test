@@ -9,6 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import java.io.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by vadim on 08.12.2015.
@@ -25,7 +26,7 @@ public class dpath extends Config {
         browser.manage().window().setSize(new Dimension(1920,1080));
 
         browser.get("http://dkstage.dollskill.com/");
-
+        browser.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         js.executeScript("cbar_close_popup(9728);");
 
     }
@@ -48,13 +49,11 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException, InterruptedException {
-        browser.manage().window().setSize(new Dimension(1920, 1080));
-
 
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
         WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/never-say-never-dreamie-bra.html']")));
-        Assert.assertTrue(searchedProduct.isDisplayed());
+        Assert.assertTrue(!searchedProduct.isDisplayed());
         searchedProduct.click();
 
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));

@@ -55,17 +55,14 @@ public class dpath extends Config {
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
 
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("img[alt='Never Say Never Dreamie Bra']")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/24hrs-5-a-day-swimsuit-set.html']")));
         searchedProduct.click();
-        Thread time = null;
-        time.sleep(1);
-        //selecting options of product
-        FileUtils.copyFile(screenshotFile,new File("screenshots.png"));
+
         System.out.println(browser.getPageSource());
-        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[80]']")));
+        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
 
-        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[name='super_attribute[125]']")));
+        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
 
 

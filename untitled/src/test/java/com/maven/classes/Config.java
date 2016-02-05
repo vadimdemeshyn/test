@@ -24,7 +24,7 @@ public class Config {
 
 
 
-    DesiredCapabilities caps = DesiredCapabilities.chrome();
+    DesiredCapabilities caps = DesiredCapabilities.phantomjs();
 
     File file = new File("phantomjs-1.9.8-linux-i686/bin/phantomjs");
 

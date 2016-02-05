@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" afterPath="$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java" />
-    </list>
+    <list default="true" id="ef5b5e79-b8da-45e2-9e2d-de492c7c6622" name="Default" comment="" />
     <ignored path="proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.35117057">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -839,7 +837,7 @@
       <workItem from="1453911300719" duration="1180000" />
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
-      <workItem from="1454339145596" duration="19884000" />
+      <workItem from="1454339145596" duration="20113000" />
     </task>
     <servers />
   </component>
@@ -876,7 +874,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38085000" />
+    <option name="totallyTimeSpent" value="38314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="88" width="1836" height="952" extended-state="0" />
@@ -1105,7 +1103,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35117057">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
           <folding />
         </state>
       </provider>

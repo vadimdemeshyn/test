@@ -58,9 +58,12 @@ public class dpath extends Config {
 
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
+        Assert.assertTrue(colour.isDisplayed());
 
         WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
+        Assert.assertTrue(size.isDisplayed());
+
         File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File("screenshot.png"));
 

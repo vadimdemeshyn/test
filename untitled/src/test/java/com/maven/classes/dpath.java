@@ -44,11 +44,12 @@ public class dpath extends Config {
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();
 
-
+        File scrFile = ((TakesScreenshot)browser).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("screenshot.png"));
     }
 
     @And("^choose product$")
-    public void choose_product() throws IOException, InterruptedException {
+    public void choose_product() {
 
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());

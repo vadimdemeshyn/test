@@ -48,10 +48,13 @@ public class dpath extends Config {
 
     @And("^choose product$")
     public void choose_product() throws IOException, InterruptedException {
+        browser.manage().window().setSize(new Dimension(1920, 1080));
+
+
 
         Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
-
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='top']/body/div[3]/div[4]/div/main/main/ul/li[1]/div/a[1]/figure/img[2]")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/never-say-never-dreamie-bra.html']")));
+        Assert.assertTrue(searchedProduct.isDisplayed());        
         searchedProduct.click();
 
         WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));

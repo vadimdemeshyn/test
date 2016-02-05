@@ -56,13 +56,13 @@ public class dpath extends Config {
          Assert.assertTrue(searchedProduct.isDisplayed());
         searchedProduct.click();
 
-        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
+        /*WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
         colour.sendKeys("BLACK");
-        Assert.assertTrue(colour.isDisplayed());
+        Assert.assertTrue(colour.isDisplayed());*/
 
-        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
+        /*WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
         size.sendKeys("SMALL");
-        Assert.assertTrue(size.isDisplayed());
+        Assert.assertTrue(size.isDisplayed());*/
 
         File scrFile = browser.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File("screenshot.png"));

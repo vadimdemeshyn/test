@@ -1,5 +1,6 @@
 package com.maven.classes;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -8,8 +9,13 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import java.io.*;
 import java.util.concurrent.TimeUnit;
+
+import static com.jayway.restassured.RestAssured.expect;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 /**
  * Created by vadim on 08.12.2015.
@@ -64,8 +70,8 @@ public class dpath extends Config {
         size.sendKeys("SMALL");
         Assert.assertTrue(size.isDisplayed());*/
 
-        File scrFile = browser.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("screenshot.png"));
+        //File scrFile = browser.getSc(OutputType.FILE);
+        //FileUtils.copyFile(scrFile, new File("screenshot.png"));
 
 
     }
@@ -141,6 +147,20 @@ public class dpath extends Config {
     @Then("^I should see Confirmation page$")
     public void I_should_see_Confirmation_page() throws InterruptedException {
         System.out.println("wait was");
+
+    }
+
+    @Given("^API$")
+    public void api() throws Throwable {
+
+            expect().
+                    statusCode(200).
+                    body(
+                            "userId", equalTo(1),
+                            "title", equalTo("sunt aut facere repellat provident occaecati excepturi optio reprehenderit")
+                            ).
+                    when().
+                    get("http://jsonplaceholder.typicode.com/posts/1");
 
     }
 }

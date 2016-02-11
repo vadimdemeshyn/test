@@ -164,11 +164,11 @@ table.data-table td {
                         <td id="stats-number-scenarios-passed-E2E Test">0</td>
                         <td id="stats-number-scenarios-failed-E2E Test">1</td>
                         <td id="stats-number-steps-E2E Test">9</td>
-                        <td id="stats-number-steps-passed-E2E Test">2</td>
+                        <td id="stats-number-steps-passed-E2E Test">7</td>
                         <td id="stats-number-steps-failed-E2E Test">1</td>
-                        <td id="stats-number-steps-skipped-E2E Test">6</td>
+                        <td id="stats-number-steps-skipped-E2E Test">1</td>
                         <td id="stats-number-steps-pending-E2E Test">0</td>
-                        <td id="stats-duration-E2E Test">12 secs and 601 ms</td>
+                        <td id="stats-duration-E2E Test">44 secs and 346 ms</td>
                         <td id="stats-status-E2E Test" style="background-color: #D88A8A;">failed</td></tr>
 
                 </table>
@@ -183,115 +183,36 @@ table.data-table td {
 
                             <div class="feature-tags"></div>
                 <div class="failed"><span class="scenario-keyword">Scenario: </span> <span class="scenario-name">Happy path flow - from entering site to purchase confirmation</span></div>
-                                  <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">I am on default Dollskill page</span><span class="step-duration">2 secs and 857 ms</span></div>
+                                  <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">I am on default Dollskill page</span><span class="step-duration">7 secs and 531 ms</span></div>
                     
                                       <div class="output-data"></div>
-                                  <div class="passed"><span class="step-keyword">When  </span><span class="step-name">I search for needed product</span><span class="step-duration">3 secs and 765 ms</span></div>
+                                  <div class="passed"><span class="step-keyword">When  </span><span class="step-name">I search for needed product</span><span class="step-duration">11 secs and 818 ms</span></div>
                     
                                       <div class="output-data"></div>
-                                  <div class="failed"><span class="step-keyword">And  </span><span class="step-name">choose product</span><span class="step-duration">5 secs and 978 ms</span><div class="step-error-message"><pre>org.openqa.selenium.InvalidElementStateException: {"errorMessage":"Element is not currently interactable and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"45","Content-Type":"application/json; charset=utf-8","Host":"localhost:8606","User-Agent":"Apache-HttpClient/4.5 (Java/1.7.0_91)"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1454597644479\",\"value\":[\"SMALL\"]}","url":"/value","urlParsed":{"anchor":"","query":"","file":"value","directory":"/","path":"/value","relative":"/value","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/value","queryKey":{},"chunks":["value"]},"urlOriginal":"/session/1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924/element/%3Awdc%3A1454597644479/value"}}
-Command duration or timeout: 1.53 seconds
-Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
-System info: host: '68CFE259.nexcess.net', ip: '104.207.226.89', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.32-573.7.1.el6.centos.plus.x86_64', java.version: '1.7.0_91'
-Session ID: 1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924
-Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
-Capabilities [{platform=LINUX, acceptSslCerts=false, javascriptEnabled=true, browserName=phantomjs, rotatable=false, driverVersion=1.1.0, locationContextEnabled=false, version=1.9.8, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=false, browserConnectionEnabled=false, proxy={proxyType=direct}, nativeEvents=true, webStorageEnabled=false, driverName=ghostdriver, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
-	at com.maven.classes.dpath.choose_product(dpath.java:70)
-	at ���.And choose product(dpath.feature:7)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
-System info: host: '68CFE259.nexcess.net', ip: '104.207.226.89', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.32-573.7.1.el6.centos.plus.x86_64', java.version: '1.7.0_91'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
-	at com.maven.classes.dpath.choose_product(dpath.java:70)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at cucumber.runtime.Utils$1.call(Utils.java:34)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:30)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:89)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:40)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:94)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
-	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
-	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
-	at org.testng.TestRunner$1.run(TestRunner.java:682)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
-	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: org.openqa.selenium.InvalidElementStateException: {"errorMessage":"Element is not currently interactable and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"45","Content-Type":"application/json; charset=utf-8","Host":"localhost:8606","User-Agent":"Apache-HttpClient/4.5 (Java/1.7.0_91)"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1454597644479\",\"value\":[\"SMALL\"]}","url":"/value","urlParsed":{"anchor":"","query":"","file":"value","directory":"/","path":"/value","relative":"/value","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/value","queryKey":{},"chunks":["value"]},"urlOriginal":"/session/1c71e7b0-cb4f-11e5-bf3a-cfe9a9855924/element/%3Awdc%3A1454597644479/value"}}
-Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
-System info: host: '68CFE259.nexcess.net', ip: '104.207.226.89', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.32-573.7.1.el6.centos.plus.x86_64', java.version: '1.7.0_91'
-Driver info: driver.version: unknown
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">choose product</span><span class="step-duration">6 secs and 475 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">add product to Cart</span><span class="step-duration">77 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">proceed to Shopping Cart page</span><span class="step-duration">2 secs and 998 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">I proceed to Checkout page</span><span class="step-duration">3 secs and 863 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword">And  </span><span class="step-name">I login with existing customer</span><span class="step-duration">11 secs and 179 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="failed"><span class="step-keyword">And  </span><span class="step-name">I Place order</span><span class="step-duration">401 ms</span><div class="step-error-message"><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.maven.classes.dpath.I_Place_order(dpath.java:127)
+	at ✽.And I Place order(dpath.feature:12)
 </pre></div></div>
-                    
-                                      <div class="output-data"></div>
-                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">add product to Cart</span><span class="step-duration">0 ms</span></div>
-                    
-                                      <div class="output-data"></div>
-                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">proceed to Shopping Cart page</span><span class="step-duration">0 ms</span></div>
-                    
-                                      <div class="output-data"></div>
-                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">I proceed to Checkout page</span><span class="step-duration">0 ms</span></div>
-                    
-                                      <div class="output-data"></div>
-                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">I login with existing customer</span><span class="step-duration">0 ms</span></div>
-                    
-                                      <div class="output-data"></div>
-                                  <div class="skipped"><span class="step-keyword">And  </span><span class="step-name">I Place order</span><span class="step-duration">0 ms</span></div>
                     
                                       <div class="output-data"></div>
                                   <div class="skipped"><span class="step-keyword">Then  </span><span class="step-name">I should see Confirmation page</span><span class="step-duration">0 ms</span></div>
@@ -305,7 +226,7 @@ Driver info: driver.version: unknown
 	<div class="container_12">
 		<div class="grid_12 hr"></div>
 		<div class="grid_12 footer">
-            <p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.22 - 04-02-2016 09:54:07</p>
+            <p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.22 - 10-02-2016 17:51:59</p>
 		</div>
 	</div>
 	<div class="clear"></div>

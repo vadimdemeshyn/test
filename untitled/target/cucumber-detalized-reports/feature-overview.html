@@ -89,12 +89,12 @@ table.stats-table td {
             window.onload = function () {
                 var steps = Raphael("steps_chart");
                 steps.text(45, 280, "Steps").attr({ font: "30px sans-serif" });
-                steps.piechart(200, 150, 120, [ 2 ,  1 ,  6 ,  0.000001 ], { legend: ["%%.%% - Passed", "%%.%% - Failed", "%%.%% - Skipped", "%%.%% - Pending"], legendpos: "east", colors: ["#88aaff","#88dd11","#cc1134","#FBB917"]});
+                steps.piechart(200, 150, 120, [ 7 ,  2 ,  9 ,  0.000001 ], { legend: ["%%.%% - Passed", "%%.%% - Failed", "%%.%% - Skipped", "%%.%% - Pending"], legendpos: "east", colors: ["#88aaff","#88dd11","#cc1134","#FBB917"]});
 
 
                 var scenarios = Raphael("scenarios_chart");
                 scenarios.text(75, 280, "Scenarios").attr({ font: "30px sans-serif", fill: "white" });
-                scenarios.piechart(200, 150, 120, [ 0.000001 , 1 ], { legend: ["%%.%% - Passed", "%%.%% - Failed"], legendpos: "east", colors: ["#cc1134","#88dd11"], legendcolor: "white"});
+                scenarios.piechart(200, 150, 120, [ 0.000001 , 2 ], { legend: ["%%.%% - Passed", "%%.%% - Failed"], legendpos: "east", colors: ["#cc1134","#88dd11"], legendcolor: "white"});
             };
         </script>
         <noscript>
@@ -149,25 +149,43 @@ table.stats-table td {
           <td id="stats-number-scenarios-passed-E2E Test">0</td>
           <td id="stats-number-scenarios-failed-E2E Test">1</td>
           <td id="stats-number-steps-E2E Test">9</td>
-          <td id="stats-number-steps-passed-E2E Test">2</td>
+          <td id="stats-number-steps-passed-E2E Test">7</td>
           <td id="stats-number-steps-failed-E2E Test">1</td>
-          <td id="stats-number-steps-skipped-E2E Test">6</td>
+          <td id="stats-number-steps-skipped-E2E Test">1</td>
           <td id="stats-number-steps-pending-E2E Test">0</td>
-          <td id="stats-duration-E2E Test">12 secs and 601 ms</td>
+          <td id="stats-duration-E2E Test">44 secs and 346 ms</td>
+          <td id="stats-status-E2E Test" style="background-color: #D88A8A;">failed</td>
+          </tr>
+      
+                    
+          
+
+          
+          <tr>
+          <td style="text-align:left;"><a id="stats-E2E Test" href="eetest.feature.html">E2E Test</a></td>
+          <td id="stats-number-scenarios-E2E Test">1</td>
+          <td id="stats-number-scenarios-passed-E2E Test">0</td>
+          <td id="stats-number-scenarios-failed-E2E Test">1</td>
+          <td id="stats-number-steps-E2E Test">9</td>
+          <td id="stats-number-steps-passed-E2E Test">0</td>
+          <td id="stats-number-steps-failed-E2E Test">1</td>
+          <td id="stats-number-steps-skipped-E2E Test">8</td>
+          <td id="stats-number-steps-pending-E2E Test">0</td>
+          <td id="stats-duration-E2E Test">83 ms</td>
           <td id="stats-status-E2E Test" style="background-color: #D88A8A;">failed</td>
           </tr>
       
 <tr>
-<td id="stats-total-features" style="background-color:lightgray;font-weight:bold;">1</td>
-<td id="stats-total-scenarios" style="background-color:lightgray;font-weight:bold;">1</td>
+<td id="stats-total-features" style="background-color:lightgray;font-weight:bold;">2</td>
+<td id="stats-total-scenarios" style="background-color:lightgray;font-weight:bold;">2</td>
 <td id="stats-total-scenarios-passed" style="background-color:lightgray;font-weight:bold;">0</td>
-<td id="stats-total-scenarios-failed" style="background-color:lightgray;font-weight:bold;">1</td>
-<td id="stats-total-steps" style="background-color:lightgray;font-weight:bold;">9</td>
-<td id="stats-total-steps-passed" style="background-color:lightgray;font-weight:bold;">2</td>
-<td id="stats-total-steps-failed" style="background-color:lightgray;font-weight:bold;">1</td>
-<td id="stats-total-steps-skipped" style="background-color:lightgray;font-weight:bold;">6</td>
+<td id="stats-total-scenarios-failed" style="background-color:lightgray;font-weight:bold;">2</td>
+<td id="stats-total-steps" style="background-color:lightgray;font-weight:bold;">18</td>
+<td id="stats-total-steps-passed" style="background-color:lightgray;font-weight:bold;">7</td>
+<td id="stats-total-steps-failed" style="background-color:lightgray;font-weight:bold;">2</td>
+<td id="stats-total-steps-skipped" style="background-color:lightgray;font-weight:bold;">9</td>
 <td id="stats-total-steps-pending" style="background-color:lightgray;font-weight:bold;">0</td>
-<td id="stats-total-duration" style="background-color:lightgray;font-weight:bold;">12 secs and 601 ms</td>
+<td id="stats-total-duration" style="background-color:lightgray;font-weight:bold;">44 secs and 429 ms</td>
 <td id="stats-total-totals" style="background-color:lightgray;font-weight:bold;">Totals</td>
 </tr></table>
 	</div>
@@ -179,7 +197,7 @@ table.stats-table td {
 	<div class="container_12">
 		<div class="grid_12 hr"></div>
 		<div class="grid_12 footer">
-			<p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.22 - 04-02-2016 09:54:07</p>
+			<p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.22 - 10-02-2016 17:51:59</p>
 		</div>
 	</div>
 	<div class="clear"></div>

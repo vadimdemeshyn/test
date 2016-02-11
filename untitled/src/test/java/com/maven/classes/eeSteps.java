@@ -29,15 +29,10 @@ public class eeSteps extends Config {
 
     @When("^search for needed product$")
     public void searchForNeededProduct() throws Throwable {
-        WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
-        searchIcon.click();
-
-        WebElement searchField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#search")));
-        searchField.click();
-        searchField.sendKeys("Never Say Never Dreamie Bra");
-
-        WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
-        searchSubmitIcon.click();
+        Assert.assertEquals("http://ee.dollskill.com/catalogsearch/result/?q=Test+Product", browser.getCurrentUrl());
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/test-product.html']")));
+        Assert.assertTrue(searchedProduct.isDisplayed());
+        searchedProduct.click();
     }
 
     @And("^I choose product$")

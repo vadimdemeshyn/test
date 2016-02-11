@@ -34,7 +34,7 @@ public class eeSteps extends Config {
 
         WebElement searchField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#search")));
         searchField.click();
-        searchField.sendKeys("Never Say Never Dreamie Bra");
+        searchField.sendKeys("Test Product");
 
         WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
         searchSubmitIcon.click();

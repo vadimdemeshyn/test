@@ -48,8 +48,8 @@
       <file leaf-file-name="eeSteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.548495">
-              <caret line="44" column="89" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
+            <state vertical-scroll-proportion="-0.0033444816">
+              <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -60,7 +60,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+              <folding>
+                <marker date="1455195105000" expanded="true" signature="20:48" placeholder="Scenario: API" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -876,7 +878,7 @@
       <workItem from="1453977141159" duration="3113000" />
       <workItem from="1454321177546" duration="2570000" />
       <workItem from="1454339145596" duration="23692000" />
-      <workItem from="1455119236407" duration="5581000" />
+      <workItem from="1455119236407" duration="5674000" />
     </task>
     <servers />
   </component>
@@ -913,7 +915,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47474000" />
+    <option name="totallyTimeSpent" value="47567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="68" width="1836" height="952" extended-state="0" />
@@ -1169,7 +1171,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1455195105000" expanded="true" signature="20:48" placeholder="Scenario: API" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/maven/classes/eeSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.548495">
-          <caret line="44" column="89" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
+        <state vertical-scroll-proportion="-0.0033444816">
+          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
           <folding />
         </state>
       </provider>

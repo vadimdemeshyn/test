@@ -43,7 +43,7 @@ public class eeSteps extends Config {
     @And("^I choose product$")
     public void iChooseProduct() throws Throwable {
         Assert.assertEquals("http://ee.dollskill.com/catalogsearch/result/?q=Test+Product", browser.getCurrentUrl());
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/test-product.html']")));
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://ee.dollskill.com/test-product.html']")));
         Assert.assertTrue(searchedProduct.isDisplayed());
         searchedProduct.click();
     }

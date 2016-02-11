@@ -29,25 +29,23 @@ public class eeSteps extends Config {
 
     @When("^search for needed product$")
     public void searchForNeededProduct() throws Throwable {
-        Assert.assertEquals("http://ee.dollskill.com/catalogsearch/result/?q=Test+Product", browser.getCurrentUrl());
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/test-product.html']")));
-        Assert.assertTrue(searchedProduct.isDisplayed());
-        searchedProduct.click();
+        WebElement searchIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#show_header_search")));
+        searchIcon.click();
+
+        WebElement searchField = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#search")));
+        searchField.click();
+        searchField.sendKeys("Never Say Never Dreamie Bra");
+
+        WebElement searchSubmitIcon = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-button")));
+        searchSubmitIcon.click();
     }
 
     @And("^I choose product$")
     public void iChooseProduct() throws Throwable {
-        Assert.assertEquals("http://ee.dollskill.com/catalogsearch/result/?q=Never+Say+Never+Dreamie+Bra", browser.getCurrentUrl());
-
-        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href=\"http://ee.dollskill.com/never-say-never-dreamie-bra.html\"]")));
+        Assert.assertEquals("http://dkstage.dollskill.com/catalogsearch/result/?q=Test+Product", browser.getCurrentUrl());
+        WebElement searchedProduct = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='http://dkstage.dollskill.com/test-product.html']")));
+        Assert.assertTrue(searchedProduct.isDisplayed());
         searchedProduct.click();
-
-        //selecting options of product
-
-        WebElement colour = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute80']")));
-        colour.sendKeys("BLACK");
-        WebElement size = delay.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[id='attribute125']")));
-        size.sendKeys("SMALL");
     }
 
     @And("^I add product to Cart$")

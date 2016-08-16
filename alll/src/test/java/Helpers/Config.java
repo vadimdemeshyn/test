@@ -1,10 +1,12 @@
 package Helpers;
 
+import com.google.common.collect.ImmutableMap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -12,6 +14,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
 
 
 /**
@@ -82,16 +87,16 @@ public class Config {
     protected static WebDriver browser;
 
 
-    public Config() {
+    public Config() throws IOException {
         initialize();
     }
 
-    public void initialize() {
+    public void initialize() throws IOException {
         if (browser == null)
             createNewDriverInstance();
     }
 
-    private void createNewDriverInstance() {
+    private void createNewDriverInstance() throws IOException {
 
         if (USER_NAME.contains("vadimdemeshyn")){
             if (BRW.contains("chrome")){
@@ -112,8 +117,13 @@ public class Config {
 
         else if (USER_NAME.contains("jenkins")) {
             if (BRW.contains("chrome")){
-                System.setProperty("webdriver.chrome.driver", Config.getChromeDriverPath());
-                Config.browser = new ChromeDriver();
+
+
+                ChromeDriverService chromeDriverService = new ChromeDriverService.Builder()
+                        .usingDriverExecutable(new File(Config.getChromeDriverPath()))
+                        .usingAnyFreePort().withEnvironment(ImmutableMap.of("DISPLAY", ":1")).build();
+                chromeDriverService.start();
+                Config.browser = new ChromeDriver(chromeDriverService);
             }
             else if (BRW.contains("firefox")){
                 FirefoxBinary firefoxBinary = new FirefoxBinary();

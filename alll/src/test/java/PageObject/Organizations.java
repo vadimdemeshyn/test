@@ -19,7 +19,7 @@ public class Organizations extends Config {
     @FindBy(css = "select[name=\"organizations-table_length\"]")
     private WebElement showQuantityOfElementsDropdown;
 
-    @FindBy(css = "input[class='form-control']")
+    @FindBy(css = "#organizations-table_filter .input-sm")
     private WebElement searchField;
 
     @FindBy(css = "a[href='/organizations/31']")

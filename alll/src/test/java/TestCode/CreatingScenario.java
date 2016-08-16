@@ -62,7 +62,7 @@ public class CreatingScenario extends Config {
 
         @And("^I choose organization$")
         public void iChooseOrganization ()throws Throwable {
-        System.out.println(browser.getCurrentUrl());
+
             organizations.chooseOrganization();
         }
 

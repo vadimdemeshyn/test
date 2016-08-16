@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2416801025,
+  "duration": 2110136045,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6536358,
+  "duration": 7521453,
   "status": "passed"
 });
 formatter.scenario({
@@ -63,51 +63,51 @@ formatter.match({
   "location": "UserSignIn.iAmOnSignInPage()"
 });
 formatter.result({
-  "duration": 3289951584,
+  "duration": 2812782084,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
 });
 formatter.result({
-  "duration": 2561422799,
+  "duration": 2555098672,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
 });
 formatter.result({
-  "duration": 2553334712,
+  "duration": 2553361415,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iClickOnSignInButton()"
 });
 formatter.result({
-  "duration": 5872603349,
+  "duration": 5934002371,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iShouldBeLoggedInSuccessfully()"
 });
 formatter.result({
-  "duration": 2518233814,
+  "duration": 2515294302,
   "status": "passed"
 });
 formatter.after({
-  "duration": 94807892,
+  "duration": 79971586,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1726126583,
+  "duration": 1734422332,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1316243704,
+  "duration": 1318980817,
   "status": "passed"
 });
 formatter.before({
-  "duration": 486645,
+  "duration": 3584287,
   "status": "passed"
 });
 formatter.scenario({
@@ -153,28 +153,28 @@ formatter.match({
   "location": "UserSignIn.iAmOnSignInPage()"
 });
 formatter.result({
-  "duration": 2572460526,
+  "duration": 2255737942,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillEmailFieldWithInvalidEmail()"
 });
 formatter.result({
-  "duration": 2557171973,
+  "duration": 2553720293,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
 });
 formatter.result({
-  "duration": 2548261873,
+  "duration": 2550966791,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iClickOnSignInButton()"
 });
 formatter.result({
-  "duration": 3057735222,
+  "duration": 3162235666,
   "status": "passed"
 });
 formatter.match({
@@ -187,23 +187,24 @@ formatter.match({
   "location": "UserSignIn.iShouldSee(String)"
 });
 formatter.result({
-  "duration": 27987394,
+  "duration": 31160982,
+  "error_message": "java.lang.AssertionError: expected [×\nInvalid email or password.] but found [× Invalid email or password.]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\n\tat org.testng.Assert.assertEquals(Assert.java:123)\n\tat org.testng.Assert.assertEquals(Assert.java:176)\n\tat org.testng.Assert.assertEquals(Assert.java:186)\n\tat PageObject.SignInPage.getWARNING_MESSAGE(SignInPage.java:89)\n\tat TestCode.UserSignIn.iShouldSee(UserSignIn.java:97)\n\tat ✽.Then I should see \"Warning message\"(UserSighIn.feature:19)\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 93763518,
   "status": "passed"
 });
 formatter.after({
-  "duration": 88836275,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1395600550,
+  "duration": 1398914711,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1308951090,
+  "duration": 1309479523,
   "status": "passed"
 });
 formatter.before({
-  "duration": 489527,
+  "duration": 656096,
   "status": "passed"
 });
 formatter.scenario({
@@ -249,28 +250,28 @@ formatter.match({
   "location": "UserSignIn.iAmOnSignInPage()"
 });
 formatter.result({
-  "duration": 2055579448,
+  "duration": 2565919747,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
 });
 formatter.result({
-  "duration": 2550840108,
+  "duration": 2553408001,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillPasswordFirldWithInvalidPwd()"
 });
 formatter.result({
-  "duration": 46119330,
+  "duration": 44563027,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iClickOnSignInButton()"
 });
 formatter.result({
-  "duration": 3152361514,
+  "duration": 3358460544,
   "status": "passed"
 });
 formatter.match({
@@ -283,15 +284,16 @@ formatter.match({
   "location": "UserSignIn.iShouldSee(String)"
 });
 formatter.result({
-  "duration": 26955610,
+  "duration": 29718438,
+  "error_message": "java.lang.AssertionError: expected [×\nInvalid email or password.] but found [× Invalid email or password.]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\n\tat org.testng.Assert.assertEquals(Assert.java:123)\n\tat org.testng.Assert.assertEquals(Assert.java:176)\n\tat org.testng.Assert.assertEquals(Assert.java:186)\n\tat PageObject.SignInPage.getWARNING_MESSAGE(SignInPage.java:89)\n\tat TestCode.UserSignIn.iShouldSee(UserSignIn.java:97)\n\tat ✽.Then I should see \"Warning message\"(UserSighIn.feature:26)\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 83408259,
   "status": "passed"
 });
 formatter.after({
-  "duration": 84273219,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1396312801,
+  "duration": 1400541974,
   "status": "passed"
 });
 });

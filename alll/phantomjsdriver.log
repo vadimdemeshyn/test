@@ -94,3 +94,99 @@
 [INFO  - 2016-08-16T10:18:25.093Z] Session [c44d4310-639a-11e6-a459-3bb1d8d619ef] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2016-08-16T10:18:25.093Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c44d4310-639a-11e6-a459-3bb1d8d619ef
 [INFO  - 2016-08-16T10:18:25.099Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-16T10:24:29.168Z] GhostDriver - Main - running on port 31636
+[INFO  - 2016-08-16T10:24:29.594Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-08-16T10:24:29.595Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - page.customHeaders:  - {}
+[INFO  - 2016-08-16T10:24:29.595Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-16T10:24:29.595Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9d8fb360-639b-11e6-8981-677981a6099c
+[ERROR - 2016-08-16T10:24:31.948Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.events[e].bind(this)')
+[ERROR - 2016-08-16T10:24:31.948Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - page.onError - stack:
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  n (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  e (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+[ERROR - 2016-08-16T10:24:41.619Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.events[e].bind(this)')
+[ERROR - 2016-08-16T10:24:41.619Z] Session [9d8fb360-639b-11e6-8981-677981a6099c] - page.onError - stack:
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  n (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  e (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+[INFO  - 2016-08-16T10:24:46.036Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-16T10:24:47.431Z] GhostDriver - Main - running on port 27754
+[INFO  - 2016-08-16T10:24:47.754Z] Session [a862b260-639b-11e6-b961-7b0036c2773e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-08-16T10:24:47.754Z] Session [a862b260-639b-11e6-b961-7b0036c2773e] - page.customHeaders:  - {}
+[INFO  - 2016-08-16T10:24:47.754Z] Session [a862b260-639b-11e6-b961-7b0036c2773e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-16T10:24:47.754Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a862b260-639b-11e6-b961-7b0036c2773e
+[INFO  - 2016-08-16T10:24:47.764Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-16T10:24:49.121Z] GhostDriver - Main - running on port 11483
+[INFO  - 2016-08-16T10:24:49.161Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-08-16T10:24:49.161Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - page.customHeaders:  - {}
+[INFO  - 2016-08-16T10:24:49.161Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-16T10:24:49.161Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a9396350-639b-11e6-b593-a3ae0a7d5695
+[ERROR - 2016-08-16T10:24:50.914Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.events[e].bind(this)')
+[ERROR - 2016-08-16T10:24:50.914Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - page.onError - stack:
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  n (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  e (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+[ERROR - 2016-08-16T10:24:59.592Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.events[e].bind(this)')
+[ERROR - 2016-08-16T10:24:59.592Z] Session [a9396350-639b-11e6-b593-a3ae0a7d5695] - page.onError - stack:
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  n (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  e (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+[INFO  - 2016-08-16T10:24:59.749Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-16T10:25:01.106Z] GhostDriver - Main - running on port 42568
+[INFO  - 2016-08-16T10:25:01.144Z] Session [b05dd940-639b-11e6-8e9e-add6d9b9472b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-08-16T10:25:01.144Z] Session [b05dd940-639b-11e6-8e9e-add6d9b9472b] - page.customHeaders:  - {}
+[INFO  - 2016-08-16T10:25:01.144Z] Session [b05dd940-639b-11e6-8e9e-add6d9b9472b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-16T10:25:01.144Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b05dd940-639b-11e6-8e9e-add6d9b9472b
+[INFO  - 2016-08-16T10:25:01.151Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-16T10:25:02.517Z] GhostDriver - Main - running on port 19300
+[INFO  - 2016-08-16T10:25:02.538Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-08-16T10:25:02.538Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - page.customHeaders:  - {}
+[INFO  - 2016-08-16T10:25:02.538Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-16T10:25:02.538Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b1326750-639b-11e6-af0a-8d29125aa3e0
+[ERROR - 2016-08-16T10:25:04.299Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.events[e].bind(this)')
+[ERROR - 2016-08-16T10:25:04.299Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - page.onError - stack:
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  n (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  e (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+[ERROR - 2016-08-16T10:25:11.040Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.events[e].bind(this)')
+[ERROR - 2016-08-16T10:25:11.040Z] Session [b1326750-639b-11e6-af0a-8d29125aa3e0] - page.onError - stack:
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  n (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  e (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:3)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+  (anonymous function) (https://upland-logic-development.herokuapp.com/assets/application-cdabae33d50d58386a9f8eda4146bf8cd60c49ed12b91f68b10a38fb3960aa6f.js:4)
+[INFO  - 2016-08-16T10:25:11.110Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-16T10:25:12.481Z] GhostDriver - Main - running on port 37024
+[INFO  - 2016-08-16T10:25:12.503Z] Session [b7231830-639b-11e6-99f1-a7f8d60e7f99] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-08-16T10:25:12.503Z] Session [b7231830-639b-11e6-99f1-a7f8d60e7f99] - page.customHeaders:  - {}
+[INFO  - 2016-08-16T10:25:12.503Z] Session [b7231830-639b-11e6-99f1-a7f8d60e7f99] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-16T10:25:12.503Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b7231830-639b-11e6-99f1-a7f8d60e7f99
+[INFO  - 2016-08-16T10:25:12.510Z] ShutdownReqHand - _handle - About to shutdown

@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="45594" started-at="2016-08-16T10:17:39Z" finished-at="2016-08-16T10:18:25Z">
+  <suite name="Surefire suite" duration-ms="45404" started-at="2016-08-16T10:24:27Z" finished-at="2016-08-16T10:25:12Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="45594" started-at="2016-08-16T10:17:39Z" finished-at="2016-08-16T10:18:25Z">
+    <test name="Surefire test" duration-ms="45404" started-at="2016-08-16T10:24:27Z" finished-at="2016-08-16T10:25:12Z">
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

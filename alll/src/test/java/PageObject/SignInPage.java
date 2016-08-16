@@ -82,8 +82,7 @@ public class SignInPage extends Config {
     }
 
     public void getWARNING_MESSAGE(){
-         String WARNING_MESSAGE = "×\n" +
-                 "Invalid email or password.";
+         String WARNING_MESSAGE = "× Invalid email or password.";
 
         String actual = warningMessageField.getText();
 

@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2416801025,
+              "duration": 2110136045,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 6536358,
+              "duration": 7521453,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 94807892,
+              "duration": 79971586,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 1726126583,
+              "duration": 1734422332,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3289951584,
+              "duration": 2812782084,
               "status": "passed"
             },
             "line": 8,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 2561422799,
+              "duration": 2555098672,
               "status": "passed"
             },
             "line": 9,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 2553334712,
+              "duration": 2553361415,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 5872603349,
+              "duration": 5934002371,
               "status": "passed"
             },
             "line": 11,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 2518233814,
+              "duration": 2515294302,
               "status": "passed"
             },
             "line": 12,
@@ -122,7 +122,7 @@
         "before": [
           {
             "result": {
-              "duration": 1316243704,
+              "duration": 1318980817,
               "status": "passed"
             },
             "match": {
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 486645,
+              "duration": 3584287,
               "status": "passed"
             },
             "match": {
@@ -146,7 +146,7 @@
         "after": [
           {
             "result": {
-              "duration": 88836275,
+              "duration": 93763518,
               "status": "passed"
             },
             "match": {
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 1395600550,
+              "duration": 1398914711,
               "status": "passed"
             },
             "match": {
@@ -168,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2572460526,
+              "duration": 2255737942,
               "status": "passed"
             },
             "line": 15,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 2557171973,
+              "duration": 2553720293,
               "status": "passed"
             },
             "line": 16,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 2548261873,
+              "duration": 2550966791,
               "status": "passed"
             },
             "line": 17,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 3057735222,
+              "duration": 3162235666,
               "status": "passed"
             },
             "line": 18,
@@ -216,8 +216,9 @@
           },
           {
             "result": {
-              "duration": 27987394,
-              "status": "passed"
+              "duration": 31160982,
+              "error_message": "java.lang.AssertionError: expected [×\nInvalid email or password.] but found [× Invalid email or password.]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\n\tat org.testng.Assert.assertEquals(Assert.java:123)\n\tat org.testng.Assert.assertEquals(Assert.java:176)\n\tat org.testng.Assert.assertEquals(Assert.java:186)\n\tat PageObject.SignInPage.getWARNING_MESSAGE(SignInPage.java:89)\n\tat TestCode.UserSignIn.iShouldSee(UserSignIn.java:97)\n\tat ✽.Then I should see \"Warning message\"(UserSighIn.feature:19)\n",
+              "status": "failed"
             },
             "line": 19,
             "name": "I should see \"Warning message\"",
@@ -244,7 +245,7 @@
         "before": [
           {
             "result": {
-              "duration": 1308951090,
+              "duration": 1309479523,
               "status": "passed"
             },
             "match": {
@@ -253,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 489527,
+              "duration": 656096,
               "status": "passed"
             },
             "match": {
@@ -268,7 +269,7 @@
         "after": [
           {
             "result": {
-              "duration": 84273219,
+              "duration": 83408259,
               "status": "passed"
             },
             "match": {
@@ -277,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 1396312801,
+              "duration": 1400541974,
               "status": "passed"
             },
             "match": {
@@ -290,7 +291,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2055579448,
+              "duration": 2565919747,
               "status": "passed"
             },
             "line": 22,
@@ -302,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 2550840108,
+              "duration": 2553408001,
               "status": "passed"
             },
             "line": 23,
@@ -314,7 +315,7 @@
           },
           {
             "result": {
-              "duration": 46119330,
+              "duration": 44563027,
               "status": "passed"
             },
             "line": 24,
@@ -326,7 +327,7 @@
           },
           {
             "result": {
-              "duration": 3152361514,
+              "duration": 3358460544,
               "status": "passed"
             },
             "line": 25,
@@ -338,8 +339,9 @@
           },
           {
             "result": {
-              "duration": 26955610,
-              "status": "passed"
+              "duration": 29718438,
+              "error_message": "java.lang.AssertionError: expected [×\nInvalid email or password.] but found [× Invalid email or password.]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\n\tat org.testng.Assert.assertEquals(Assert.java:123)\n\tat org.testng.Assert.assertEquals(Assert.java:176)\n\tat org.testng.Assert.assertEquals(Assert.java:186)\n\tat PageObject.SignInPage.getWARNING_MESSAGE(SignInPage.java:89)\n\tat TestCode.UserSignIn.iShouldSee(UserSignIn.java:97)\n\tat ✽.Then I should see \"Warning message\"(UserSighIn.feature:26)\n",
+              "status": "failed"
             },
             "line": 26,
             "name": "I should see \"Warning message\"",

@@ -87,16 +87,16 @@ public class Config {
     protected static WebDriver browser;
 
 
-    public Config() throws IOException {
+    public Config() {
         initialize();
     }
 
-    public void initialize() throws IOException {
+    public void initialize() {
         if (browser == null)
             createNewDriverInstance();
     }
 
-    private void createNewDriverInstance() throws IOException {
+    private void createNewDriverInstance() {
 
         if (USER_NAME.contains("vadimdemeshyn")){
             if (BRW.contains("chrome")){
@@ -122,7 +122,12 @@ public class Config {
                 ChromeDriverService chromeDriverService = new ChromeDriverService.Builder()
                         .usingDriverExecutable(new File(Config.getChromeDriverPath()))
                         .usingAnyFreePort().withEnvironment(ImmutableMap.of("DISPLAY", ":1")).build();
-                chromeDriverService.start();
+                try {
+                    chromeDriverService.start();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
                 Config.browser = new ChromeDriver(chromeDriverService);
             }
             else if (BRW.contains("firefox")){

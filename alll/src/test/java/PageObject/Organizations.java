@@ -13,15 +13,13 @@ public class Organizations extends Config {
 
     private WebDriver browser;
 
-    private static String PAGE_URL = "https://upland-logic-development.herokuapp.com/organizations";
-
     @FindBy(css = "a[href='/organizations/new']")
     private WebElement createOrganizationButton;
 
     @FindBy(css = "select[name=\"organizations-table_length\"]")
     private WebElement showQuantityOfElementsDropdown;
 
-    @FindBy(xpath = ".//*[@id='organizations-table_filter']/label/input")
+    @FindBy(css = "input[class='form-control']")
     private WebElement searchField;
 
     @FindBy(css = "a[href='/organizations/31']")
@@ -60,7 +58,6 @@ public class Organizations extends Config {
         }
 
         public void chooseOrganization(){
-            browser.get(PAGE_URL);
             searchField.sendKeys("31");
             svitlaOrganization.click();
         }

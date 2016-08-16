@@ -60,29 +60,25 @@ public class UserSignIn  extends Config {
 
     @And("^I fill Password firld with valid email$")
     public void iFillPasswordFirldWithValidEmail() throws InterruptedException {
-        Thread.sleep(2500);
 
         signInPage.fillPwd();
     }
 
     @And("^I click on Sign In button$")
     public void iClickOnSignInButton() throws InterruptedException {
-        Thread.sleep(2500);
 
         signInPage.clickSignInButton();
     }
 
     @Then("^I should be logged in successfully$")
     public void iShouldBeLoggedInSuccessfully() throws InterruptedException {
-        Thread.sleep(2500);
 
-        Assert.assertEquals("https://upland-logic-development.herokuapp.com/organizations", browser.getCurrentUrl());
+        Assert.assertEquals("https://upland-logic-staging.herokuapp.com/organizations", browser.getCurrentUrl());
     }
 
 
     @When("^I fill Email field with invalid email$")
     public void iFillEmailFieldWithInvalidEmail() throws InterruptedException {
-        Thread.sleep(2500);
 
         signInPage.fillInvalidEmail();
     }

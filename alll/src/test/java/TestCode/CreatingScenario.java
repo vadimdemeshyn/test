@@ -62,56 +62,48 @@ public class CreatingScenario extends Config {
 
         @And("^I choose organization$")
         public void iChooseOrganization ()throws Throwable {
-            Thread.sleep(2500);
         System.out.println(browser.getCurrentUrl());
             organizations.chooseOrganization();
         }
 
         @And("^I click Impairments button$")
         public void iClickImpairmentsButton ()throws Throwable {
-            Thread.sleep(2500);
 
             organizationInnerPage.clickImpairmentsButton();
         }
 
         @And("^I click Scenario button$")
         public void iClickScenarioButton ()throws Throwable {
-            Thread.sleep(2500);
 
             scenariosPage.clickScenarioButton();
         }
 
         @And("^I fill fields with valid info$")
         public void iFillFieldsWithValidInfo ()throws Throwable {
-            Thread.sleep(2500);
 
             scenariosPage.fillFieldsWithValidInfo();
         }
 
         @And("^I click Create button$")
         public void iClickCreateButton ()throws Throwable {
-            Thread.sleep(2500);
 
             scenariosPage.clickCreateButton();
         }
 
         @Then("^new scenario is added$")
         public void newScenarioIsAdded ()throws Throwable {
-            Thread.sleep(2500);
 
             scenariosPage.getWARNING_MESSAGE();
         }
 
         @And("^I fill fields with valid info but name field with existing name$")
         public void iFillFieldsWithValidInfoButNameFieldWithExistingName ()throws Throwable {
-            Thread.sleep(2500);
 
             scenariosPage.fillFieldsWithValidInfo();
         }
 
         @Then("^I get error message stating that Scenario with the same name already exists$")
         public void iGetErrorMessageStatingThatScenarioWithTheSameNameAlreadyExists ()throws Throwable {
-            Thread.sleep(2500);
 
             scenariosPage.getAlreadyExistingMessage();
         }

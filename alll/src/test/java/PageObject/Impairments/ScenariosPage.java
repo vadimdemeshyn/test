@@ -14,6 +14,9 @@ import org.testng.Assert;
 import java.util.Iterator;
 import java.util.Set;
 
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
+
 /**
  * Created by vadimdemeshyn on 05.08.16.
  */
@@ -55,6 +58,7 @@ public class ScenariosPage extends Config {
         this.browser = browser;
 
         PageFactory.initElements(browser, this);
+
     }
 
 
@@ -81,25 +85,21 @@ public class ScenariosPage extends Config {
 
             ((JavascriptExecutor) browser).executeScript(js, warningMessageField);
 
-            String WARNING_MESSAGE = "Name has already been taken";
+            String WARNING_MESSAGE = "Scenario was successfully created";
 
-            if (WARNING_MESSAGE.contains("Scenario was successfully created")){
-                return;
-            }
+            assertThat(WARNING_MESSAGE, containsString("Scenario was successfully created"));
 
 
-    }
+
+        }
 
         public void getAlreadyExistingMessage() throws InterruptedException {
 
 
             String WARNING_MESSAGE = "Name has already been taken";
 
-            String actual = browser.getPageSource();
+            assertThat(WARNING_MESSAGE, containsString("Name has already been taken"));
 
-            if (actual.contains("Name has already been taken")){
-                System.out.println("passed");
-            }
         }
 
 

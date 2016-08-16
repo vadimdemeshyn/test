@@ -10,6 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import java.util.List;
 
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
+
 /**
  * Created by vadimdemeshyn on 03.06.16.
  */
@@ -17,7 +20,7 @@ public class SignInPage extends Config {
 
     private WebDriver browser;
 
-    private static String PAGE_URL="https://upland-logic-development.herokuapp.com/users/sign_in";
+    private static String PAGE_URL="https://upland-logic-staging.herokuapp.com/users/sign_in";
 
 
     public String getSigInPageUrl(){
@@ -82,11 +85,10 @@ public class SignInPage extends Config {
     }
 
     public void getWARNING_MESSAGE(){
-         String WARNING_MESSAGE = "× Invalid email or password.";
+         String WARNING_MESSAGE = "×\n" +
+                 "Invalid email or password.";
 
-        String actual = warningMessageField.getText();
-
-        Assert.assertEquals(WARNING_MESSAGE, actual);
+        assertThat(WARNING_MESSAGE, containsString("Invalid email or password"));
 
 
     }

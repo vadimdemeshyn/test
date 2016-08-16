@@ -5,6 +5,7 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -22,6 +23,7 @@ public class Config {
     private static String OS = System.getProperty("os.name").toLowerCase();
     private static String USER_NAME = System.getProperty("user.name").toLowerCase();
     private static String BRW = System.getProperty("browser").toLowerCase();
+    private static String Xport = System.getProperty("lmportal.xvfb.id", ":1");
 
 
     public static String getChromeDriverPath() {
@@ -103,7 +105,7 @@ public class Config {
                 Config.browser = new InternetExplorerDriver();
             }
             else if (BRW.contains("remote")){
-                Config.browser = new PhantomJSDriver();
+                Config.browser = new HtmlUnitDriver();
             }
 
         }
@@ -114,7 +116,9 @@ public class Config {
                 Config.browser = new ChromeDriver();
             }
             else if (BRW.contains("firefox")){
-                Config.browser = new FirefoxDriver();
+                FirefoxBinary firefoxBinary = new FirefoxBinary();
+                firefoxBinary.setEnvironmentProperty("DISPLAY", Xport);
+                Config.browser = new FirefoxDriver(firefoxBinary, null);
             }
             else if (BRW.contains("ie")){
                 Config.browser = new InternetExplorerDriver();

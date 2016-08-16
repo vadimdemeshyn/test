@@ -1,0 +1,221 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2141686841,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "UserSignIn.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85351715,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill Email field with valid email",
+            "match": {
+              "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53230856,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill Password firld with valid email",
+            "match": {
+              "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2647465611,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "UserSignIn.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1077876339,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 74363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.signupSetup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7687280,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSignIn.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User can\u0027t create new Scenario with existing name",
+        "description": "",
+        "id": "creating-scenario;user-can\u0027t-create-new-scenario-with-existing-name",
+        "after": [
+          {
+            "result": {
+              "duration": 76339405,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.signupTeardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2726357022,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSignIn.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2082408480,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I choose organization",
+            "match": {
+              "location": "CreatingScenario.iChooseOrganization()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543215070,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Impairments button",
+            "match": {
+              "location": "CreatingScenario.iClickImpairmentsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56445632,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click Scenario button",
+            "match": {
+              "location": "CreatingScenario.iClickScenarioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113407216,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I fill fields with valid info but name field with existing name",
+            "match": {
+              "location": "CreatingScenario.iFillFieldsWithValidInfoButNameFieldWithExistingName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 882521675,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click Create button",
+            "match": {
+              "location": "CreatingScenario.iClickCreateButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11402540,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I get error message stating that Scenario with the same name already exists",
+            "match": {
+              "location": "CreatingScenario.iGetErrorMessageStatingThatScenarioWithTheSameNameAlreadyExists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@create-2"
+          }
+        ]
+      }
+    ],
+    "name": "Creating Scenario",
+    "description": "",
+    "id": "creating-scenario",
+    "keyword": "Feature",
+    "uri": "CreateScenario.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@create"
+      }
+    ]
+  }
+]

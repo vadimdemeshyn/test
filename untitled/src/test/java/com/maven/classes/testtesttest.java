@@ -1,14 +1,22 @@
 package com.maven.classes;
 
+import org.testng.annotations.Test;
+
 import static com.jayway.restassured.RestAssured.expect;
 import static org.hamcrest.CoreMatchers.equalTo;
+import static org.junit.Assert.assertThat;
 
 /**
  * Created by vadimdemeshyn on 11.02.16.
  */
 public class testtesttest {
 
+    @Test
+
     public void testGetSingleUser() {
+
+
+
         expect().
                 statusCode(200).
                 body(
@@ -19,6 +27,8 @@ public class testtesttest {
                 when().
                 get("http://jsonplaceholder.typicode.com/posts/1");
     }
+
+
 
     public void main(String[] args) {
         this.testGetSingleUser();

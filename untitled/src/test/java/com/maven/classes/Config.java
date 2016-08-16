@@ -6,6 +6,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -21,20 +22,17 @@ import java.net.URL;
 
 public class Config {
 
-
-
-
     DesiredCapabilities caps = DesiredCapabilities.firefox();
 
-    File file = new File("phantomjs-1.9.8-linux-i686/bin/phantomjs");
+    /*File file = new File("phantomjs-1.9.8-linux-i686/bin/phantomjs");
 
     final String phantomjsProperties = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
 
-    PhantomJSDriver browser = new PhantomJSDriver(caps);
+    PhantomJSDriver browser = new PhantomJSDriver(caps);*/
 
-    /*File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
+    File file = new File("/Users/vadimdemeshyn/test/untitled/chromedriver");
     final String chromeProperties = System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-    WebDriver browser = new ChromeDriver();*/
+    WebDriver browser = new ChromeDriver();
 
 
 

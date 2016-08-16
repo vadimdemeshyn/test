@@ -1,180 +1,271 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("CreateScenario.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("UserSighIn.feature");
 formatter.feature({
-  "line": 3,
-  "name": "Creating Scenario",
+  "line": 5,
+  "name": "User sign in",
   "description": "",
-  "id": "creating-scenario",
+  "id": "user-sign-in",
   "keyword": "Feature",
   "tags": [
     {
-      "line": 1,
-      "name": "@create"
+      "line": 2,
+      "name": "@signin"
     }
   ]
 });
 formatter.before({
-  "duration": 1077876339,
+  "duration": 1056518639,
   "status": "passed"
 });
 formatter.before({
-  "duration": 74363,
+  "duration": 7639160,
   "status": "passed"
 });
-formatter.before({
-  "duration": 7687280,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
+formatter.scenario({
+  "line": 7,
+  "name": "User can login with valid credential",
   "description": "",
-  "type": "background",
-  "keyword": "Background"
+  "id": "user-sign-in;user-can-login-with-valid-credential",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@signin"
+    }
+  ]
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "I am on Sign In page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "I fill Email field with valid email",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 10,
   "name": "I fill Password firld with valid email",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 11,
   "name": "I click on Sign In button",
   "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I should be logged in successfully",
+  "keyword": "Then "
 });
 formatter.match({
   "location": "UserSignIn.iAmOnSignInPage()"
 });
 formatter.result({
-  "duration": 2141686841,
+  "duration": 1885377115,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
 });
 formatter.result({
-  "duration": 85351715,
+  "duration": 85627889,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
 });
 formatter.result({
-  "duration": 53230856,
+  "duration": 55488303,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iClickOnSignInButton()"
 });
 formatter.result({
-  "duration": 2647465611,
+  "duration": 1892233927,
+  "status": "passed"
+});
+formatter.match({
+  "location": "UserSignIn.iShouldBeLoggedInSuccessfully()"
+});
+formatter.result({
+  "duration": 18856635,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 73256449,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2720398534,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 619245534,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 676108,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "User can\u0027t login with invalid credential - email",
+  "description": "",
+  "id": "user-sign-in;user-can\u0027t-login-with-invalid-credential---email",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@signin"
+    }
+  ]
+});
+formatter.step({
+  "line": 15,
+  "name": "I am on Sign In page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 16,
+  "name": "I fill Email field with invalid email",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "I fill Password firld with valid email",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "I click on Sign In button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "I should see \"Warning message\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "UserSignIn.iAmOnSignInPage()"
+});
+formatter.result({
+  "duration": 1921749458,
+  "status": "passed"
+});
+formatter.match({
+  "location": "UserSignIn.iFillEmailFieldWithInvalidEmail()"
+});
+formatter.result({
+  "duration": 89877172,
+  "status": "passed"
+});
+formatter.match({
+  "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
+});
+formatter.result({
+  "duration": 72975992,
+  "status": "passed"
+});
+formatter.match({
+  "location": "UserSignIn.iClickOnSignInButton()"
+});
+formatter.result({
+  "duration": 753320437,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Warning message",
+      "offset": 14
+    }
+  ],
+  "location": "UserSignIn.iShouldSee(String)"
+});
+formatter.result({
+  "duration": 53989781,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 73057819,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2749952633,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 598646936,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 427562,
   "status": "passed"
 });
 formatter.scenario({
   "line": 21,
-  "name": "User can\u0027t create new Scenario with existing name",
+  "name": "User can\u0027t login with invalid credential - pwd",
   "description": "",
-  "id": "creating-scenario;user-can\u0027t-create-new-scenario-with-existing-name",
+  "id": "user-sign-in;user-can\u0027t-login-with-invalid-credential---pwd",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
       "line": 20,
-      "name": "@create-2"
+      "name": "@signin"
     }
   ]
 });
 formatter.step({
   "line": 22,
-  "name": "I choose organization",
-  "keyword": "And "
+  "name": "I am on Sign In page",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 23,
-  "name": "I click Impairments button",
-  "keyword": "And "
+  "name": "I fill Email field with valid email",
+  "keyword": "When "
 });
 formatter.step({
   "line": 24,
-  "name": "I click Scenario button",
+  "name": "I fill Password firld with invalid pwd",
   "keyword": "And "
 });
 formatter.step({
   "line": 25,
-  "name": "I fill fields with valid info but name field with existing name",
+  "name": "I click on Sign In button",
   "keyword": "And "
 });
 formatter.step({
   "line": 26,
-  "name": "I click Create button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "I get error message stating that Scenario with the same name already exists",
+  "name": "I should see \"Warning message\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreatingScenario.iChooseOrganization()"
+  "location": "UserSignIn.iAmOnSignInPage()"
 });
 formatter.result({
-  "duration": 2082408480,
+  "duration": 2909086116,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreatingScenario.iClickImpairmentsButton()"
+  "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
 });
 formatter.result({
-  "duration": 543215070,
+  "duration": 84569362,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreatingScenario.iClickScenarioButton()"
+  "location": "UserSignIn.iFillPasswordFirldWithInvalidPwd()"
 });
 formatter.result({
-  "duration": 56445632,
+  "duration": 79482322,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreatingScenario.iFillFieldsWithValidInfoButNameFieldWithExistingName()"
-});
-formatter.result({
-  "duration": 1113407216,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CreatingScenario.iClickCreateButton()"
-});
-formatter.result({
-  "duration": 882521675,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CreatingScenario.iGetErrorMessageStatingThatScenarioWithTheSameNameAlreadyExists()"
-});
-formatter.result({
-  "duration": 11402540,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 76339405,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 110925,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 2726357022,
-  "status": "passed"
-});
+  "location": "UserSignIn.iClickOnSignInButton()"
 });

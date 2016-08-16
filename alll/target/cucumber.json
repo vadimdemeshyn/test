@@ -1,69 +1,12 @@
 [
   {
-    "line": 3,
+    "line": 5,
     "elements": [
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2090119910,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I am on Sign In page",
-            "match": {
-              "location": "UserSignIn.iAmOnSignInPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 85526974,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I fill Email field with valid email",
-            "match": {
-              "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 60545704,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I fill Password firld with valid email",
-            "match": {
-              "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3857702387,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click on Sign In button",
-            "match": {
-              "location": "UserSignIn.iClickOnSignInButton()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
       {
         "before": [
           {
             "result": {
-              "duration": 1061969175,
+              "duration": 2416801025,
               "status": "passed"
             },
             "match": {
@@ -72,16 +15,7 @@
           },
           {
             "result": {
-              "duration": 77583,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CreatingScenario.signupSetup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 9013150,
+              "duration": 6536358,
               "status": "passed"
             },
             "match": {
@@ -89,14 +23,14 @@
             }
           }
         ],
-        "line": 12,
-        "name": "User can create new Scenario on Scenario page",
+        "line": 7,
+        "name": "User can login with valid credential",
         "description": "",
-        "id": "creating-scenario;user-can-create-new-scenario-on-scenario-page",
+        "id": "user-sign-in;user-can-login-with-valid-credential",
         "after": [
           {
             "result": {
-              "duration": 76950973,
+              "duration": 94807892,
               "status": "passed"
             },
             "match": {
@@ -105,16 +39,7 @@
           },
           {
             "result": {
-              "duration": 79299,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CreatingScenario.signupTeardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2751351752,
+              "duration": 1726126583,
               "status": "passed"
             },
             "match": {
@@ -127,94 +52,326 @@
         "steps": [
           {
             "result": {
-              "duration": 6825566923,
+              "duration": 3289951584,
               "status": "passed"
             },
-            "line": 13,
-            "name": "I choose organization",
+            "line": 8,
+            "name": "I am on Sign In page",
             "match": {
-              "location": "CreatingScenario.iChooseOrganization()"
+              "location": "UserSignIn.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2561422799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill Email field with valid email",
+            "match": {
+              "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2553334712,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill Password firld with valid email",
+            "match": {
+              "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5493789995,
+              "duration": 5872603349,
               "status": "passed"
             },
-            "line": 14,
-            "name": "I click Impairments button",
+            "line": 11,
+            "name": "I click on Sign In button",
             "match": {
-              "location": "CreatingScenario.iClickImpairmentsButton()"
+              "location": "UserSignIn.iClickOnSignInButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5060468191,
+              "duration": 2518233814,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I click Scenario button",
+            "line": 12,
+            "name": "I should be logged in successfully",
             "match": {
-              "location": "CreatingScenario.iClickScenarioButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5089225461,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I fill fields with valid info",
-            "match": {
-              "location": "CreatingScenario.iFillFieldsWithValidInfo()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5808115539,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click Create button",
-            "match": {
-              "location": "CreatingScenario.iClickCreateButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5046651506,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "new scenario is added",
-            "match": {
-              "location": "CreatingScenario.newScenarioIsAdded()"
+              "location": "UserSignIn.iShouldBeLoggedInSuccessfully()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 11,
-            "name": "@create-1"
+            "line": 6,
+            "name": "@signin"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1316243704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 486645,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSignIn.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User can\u0027t login with invalid credential - email",
+        "description": "",
+        "id": "user-sign-in;user-can\u0027t-login-with-invalid-credential---email",
+        "after": [
+          {
+            "result": {
+              "duration": 88836275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1395600550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSignIn.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2572460526,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "UserSignIn.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2557171973,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I fill Email field with invalid email",
+            "match": {
+              "location": "UserSignIn.iFillEmailFieldWithInvalidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2548261873,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I fill Password firld with valid email",
+            "match": {
+              "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3057735222,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "UserSignIn.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27987394,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see \"Warning message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning message",
+                  "offset": 14
+                }
+              ],
+              "location": "UserSignIn.iShouldSee(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@signin"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1308951090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 489527,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSignIn.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User can\u0027t login with invalid credential - pwd",
+        "description": "",
+        "id": "user-sign-in;user-can\u0027t-login-with-invalid-credential---pwd",
+        "after": [
+          {
+            "result": {
+              "duration": 84273219,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreatingScenario.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1396312801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSignIn.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2055579448,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "UserSignIn.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2550840108,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I fill Email field with valid email",
+            "match": {
+              "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46119330,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I fill Password firld with invalid pwd",
+            "match": {
+              "location": "UserSignIn.iFillPasswordFirldWithInvalidPwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3152361514,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "UserSignIn.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26955610,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see \"Warning message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning message",
+                  "offset": 14
+                }
+              ],
+              "location": "UserSignIn.iShouldSee(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@signin"
           }
         ]
       }
     ],
-    "name": "Creating Scenario",
+    "name": "User sign in",
     "description": "",
-    "id": "creating-scenario",
+    "id": "user-sign-in",
     "keyword": "Feature",
-    "uri": "CreateScenario.feature",
+    "uri": "UserSighIn.feature",
     "tags": [
       {
-        "line": 1,
-        "name": "@create"
+        "line": 2,
+        "name": "@signin"
       }
     ]
   }

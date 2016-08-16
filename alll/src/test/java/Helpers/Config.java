@@ -119,9 +119,9 @@ public class Config {
             else if (BRW.contains("ie")){
                 Config.browser = new InternetExplorerDriver();
             }
-            
+
             else if (BRW.contains("remote")){
-                Config.browser = new PhantomJSDriver();
+                Config.browser = new HtmlUnitDriver();
             }
         }
 

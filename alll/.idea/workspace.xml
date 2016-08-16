@@ -42,8 +42,8 @@
       <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73140496">
-              <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.77272725">
+              <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1077,7 +1077,7 @@
       <workItem from="1470223505739" duration="5213000" />
       <workItem from="1470658939054" duration="8028000" />
       <workItem from="1470818413841" duration="36049000" />
-      <workItem from="1471339161829" duration="3037000" />
+      <workItem from="1471339161829" duration="3094000" />
     </task>
     <servers />
   </component>
@@ -1114,7 +1114,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108087000" />
+    <option name="totallyTimeSpent" value="108144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="131" y="23" width="1185" height="823" extended-state="0" />
@@ -1584,8 +1584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73140496">
-          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.77272725">
+          <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -84,6 +84,10 @@ public class SignInPage extends Config {
         browser.get(PAGE_URL);
     }
 
+    public void performLogout(){
+        browser.get("https://upland-logic-staging.herokuapp.com/users/sign_out");
+    }
+
     public void getWARNING_MESSAGE(){
          String WARNING_MESSAGE = "×\n" +
                  "Invalid email or password.";

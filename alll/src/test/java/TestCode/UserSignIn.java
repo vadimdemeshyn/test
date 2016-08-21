@@ -4,6 +4,7 @@ package TestCode;
 
 import Helpers.Config;
 import PageObject.*;
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -13,6 +14,9 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
 
 /**
  * Created by vadimdemeshyn on 06.06.16.
@@ -106,5 +110,20 @@ public class UserSignIn  extends Config {
     @After("@signIn")
     public void signupTeardown() {
         System.out.println("This should run everytime after any of the @Signup-DataDriven tagged scenario has run");
+    }
+
+    @Then("^I should not be logged in$")
+    public void iShouldNotBeLoggedIn() throws Throwable {
+        signInPage.getWARNING_MESSAGE();
+    }
+
+    @When("^I perform log out$")
+    public void iPerformLogOut() throws Throwable {
+        signInPage.performLogout();
+    }
+
+    @Then("^I should be not logged in$")
+    public void iShouldBeNotLoggedIn() throws Throwable {
+        assertThat(browser.getCurrentUrl(), containsString("https://upland-logic-staging.herokuapp.com/users/sign_out") );
     }
 }

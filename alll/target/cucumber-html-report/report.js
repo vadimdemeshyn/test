@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2336412301,
+  "duration": 2289955762,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6825087,
+  "duration": 5612129,
   "status": "passed"
 });
 formatter.scenario({
@@ -68,50 +68,50 @@ formatter.match({
   "location": "UserSignIn.iAmOnSignInPage()"
 });
 formatter.result({
-  "duration": 3004060359,
+  "duration": 3126436988,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillEmailFieldWithValidEmail()"
 });
 formatter.result({
-  "duration": 2604487554,
+  "duration": 2606542880,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iFillPasswordFirldWithValidEmail()"
 });
 formatter.result({
-  "duration": 47498810,
+  "duration": 51301634,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iClickOnSignInButton()"
 });
 formatter.result({
-  "duration": 1892132555,
+  "duration": 1605339911,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iPerformLogOut()"
 });
 formatter.result({
-  "duration": 18246632,
+  "duration": 551422950,
   "status": "passed"
 });
 formatter.match({
   "location": "UserSignIn.iShouldBeNotLoggedIn()"
 });
 formatter.result({
-  "duration": 228931992,
+  "duration": 128502811,
   "status": "passed"
 });
 formatter.after({
-  "duration": 83622534,
+  "duration": 75257870,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1877422581,
+  "duration": 1856572306,
   "status": "passed"
 });
 });

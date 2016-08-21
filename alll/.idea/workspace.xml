@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.77319586">
-              <caret line="85" column="110" selection-start-line="85" selection-start-column="110" selection-end-line="85" selection-end-column="110" />
+              <caret line="85" column="116" selection-start-line="85" selection-start-column="116" selection-end-line="85" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -1081,7 +1081,7 @@
       <workItem from="1470658939054" duration="8028000" />
       <workItem from="1470818413841" duration="36049000" />
       <workItem from="1471339161829" duration="10824000" />
-      <workItem from="1471780541567" duration="1431000" />
+      <workItem from="1471780541567" duration="1506000" />
     </task>
     <servers />
   </component>
@@ -1118,7 +1118,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117305000" />
+    <option name="totallyTimeSpent" value="117380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="-1015" width="1440" height="823" extended-state="0" />
@@ -1610,7 +1610,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77319586">
-          <caret line="85" column="110" selection-start-line="85" selection-start-column="110" selection-end-line="85" selection-end-column="110" />
+          <caret line="85" column="116" selection-start-line="85" selection-start-column="116" selection-end-line="85" selection-end-column="116" />
           <folding />
         </state>
       </provider>

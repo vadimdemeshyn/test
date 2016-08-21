@@ -83,7 +83,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <executable>scripts/script.sh</executable>
+                    <executable>scripts/PostBuildscript.sh</executable>
                 </configuration>
             </plugin>
         </plugins>

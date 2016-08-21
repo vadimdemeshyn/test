@@ -83,7 +83,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <executable>cp -r /var/lib/jenkins/test/alll/target/cucumber-detalized-reports/* /var/www/html/reports/</executable>
+                    <executable>scripts/script.sh</executable>
                 </configuration>
             </plugin>
         </plugins>

@@ -75,16 +75,26 @@
                 <version>1.1.1</version>
                 <executions>
                     <execution>
-                        <id>some-execution</id>
+                        <id>run-after-tests</id>
                         <phase>install</phase>
                         <goals>
                             <goal>exec</goal>
                         </goals>
+                        <configuration>
+                            <executable>scripts/PostBuildscript.sh</executable>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>run-before-tests</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>ls</executable>
+                        </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <executable>scripts/PostBuildscript.sh</executable>
-                </configuration>
             </plugin>
         </plugins>
     </build>

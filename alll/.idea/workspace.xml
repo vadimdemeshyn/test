@@ -62,21 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5416665">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.49189985">
+              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreBuildScript.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PreBuildScript.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/PreBuildScript.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.042674255">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -172,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/test/java/PageObject/SignInPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCode/UserSignIn.java" />
         <option value="$PROJECT_DIR$/scripts/script.sh" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/scripts/PreBuildScript.sh" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -827,7 +827,7 @@
       <workItem from="1470818413841" duration="36049000" />
       <workItem from="1471339161829" duration="10824000" />
       <workItem from="1471780541567" duration="1759000" />
-      <workItem from="1471785771700" duration="1662000" />
+      <workItem from="1471785771700" duration="2039000" />
     </task>
     <servers />
   </component>
@@ -864,7 +864,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119295000" />
+    <option name="totallyTimeSpent" value="119672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-919" y="-1015" width="1440" height="823" extended-state="0" />
@@ -1370,18 +1370,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/scripts/PreBuildScript.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5416665">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/PreBuildScript.sh">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042674255">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.49189985">
+          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
           <folding />
         </state>
       </provider>

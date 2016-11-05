@@ -9,9 +9,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.MarionetteDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -24,6 +26,8 @@ import java.io.IOException;
  */
 public class Config {
 
+    protected static WebDriver browser;
+
     static final int DEFAULT_WAIT = 60;
     private static String OS = System.getProperty("os.name").toLowerCase();
     private static String USER_NAME = System.getProperty("user.name").toLowerCase();
@@ -31,8 +35,9 @@ public class Config {
     private static String Xport = System.getProperty("lmportal.xvfb.id", ":1");
 
 
-    public static String getChromeDriverPath() {
+    public static String getDriverPath() {
         String systemDirName = "";
+        String path = "";
         if (OS.contains("win")) {
             systemDirName = "win32";
         } else if (OS.contains("mac")) {
@@ -46,45 +51,55 @@ public class Config {
                 systemDirName = "linux/64";
             }
         }
+        if (BRW.contains("chrome")){
+            path = "bin/" + systemDirName + "/chromedriver";
+        }
+        else if (BRW.contains("firefox")){
+            path = "bin/" + systemDirName + "/geckodriver";
+        }
 
-        return "bin/" + systemDirName + "/chromedriver";
+        return path;
+
+
     }
 
-    public static WebElement waitForVisible(RunDriver self, By by){
-        WebElement element = null;
 
-        WebDriverWait wait = new WebDriverWait(self, DEFAULT_WAIT);
+
+
+
+
+
+//    public static WebElement waitForVisible(RunDriver self, By by){
+//        WebElement element = null;
+//
+//        WebDriverWait wait = new WebDriverWait(self, DEFAULT_WAIT);
+//        try {
+//            element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+//        } catch (StaleElementReferenceException ex) {
+//            System.err.println(ex.getMessage());
+//            return waitForVisible(self, by);
+//        }
+//
+//        return element;
+//    }
+
+
+
+
+
+    public  WebElement waitForVisible(By by){
+        WebDriverWait delay = new WebDriverWait(browser, 60);
+        WebElement element = null;
         try {
-            element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            element = delay.until(ExpectedConditions.visibilityOfElementLocated(by));
         } catch (StaleElementReferenceException ex) {
             System.err.println(ex.getMessage());
-            return waitForVisible(self, by);
+            return waitForVisible(by);
         }
 
         return element;
+
     }
-
-
-   /* protected static WebDriver browser;
-
-
-
-    public static void initializeBrowser(){
-        System.setProperty("webdriver.chrome.driver", Config.getChromeDriverPath());
-        Config.browser = new ChromeDriver();
-    }
-
-
-
-    public WebDriver getBrowser(){
-
-            Config.initializeBrowser();
-
-        return browser;
-    } */
-
-
-    protected static WebDriver browser;
 
 
     public Config() {
@@ -100,10 +115,11 @@ public class Config {
 
         if (USER_NAME.contains("vadimdemeshyn")){
             if (BRW.contains("chrome")){
-                System.setProperty("webdriver.chrome.driver", Config.getChromeDriverPath());
+                System.setProperty("webdriver.chrome.driver", Config.getDriverPath());
                 Config.browser = new ChromeDriver();
             }
             else if (BRW.contains("firefox")){
+                System.setProperty("webdriver.gecko.driver", Config.getDriverPath());
                 Config.browser = new FirefoxDriver();
             }
             else if (BRW.contains("ie")){
@@ -111,6 +127,9 @@ public class Config {
             }
             else if (BRW.contains("remote")){
                 Config.browser = new HtmlUnitDriver();
+            }
+            else if (BRW.contains("safari")){
+                Config.browser = new SafariDriver();
             }
 
         }
@@ -120,7 +139,7 @@ public class Config {
 
 
                 ChromeDriverService chromeDriverService = new ChromeDriverService.Builder()
-                        .usingDriverExecutable(new File(Config.getChromeDriverPath()))
+                        .usingDriverExecutable(new File(Config.getDriverPath()))
                         .usingAnyFreePort().withEnvironment(ImmutableMap.of("DISPLAY", ":1")).build();
                 try {
                     chromeDriverService.start();

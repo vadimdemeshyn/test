@@ -1,13 +1,13 @@
 package PageObject;
 
 import Helpers.Config;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.containsString;
@@ -21,12 +21,6 @@ public class SignInPage extends Config {
     private WebDriver browser;
 
     private static String PAGE_URL="https://upland-logic-staging.herokuapp.com/users/sign_in";
-
-
-    public String getSigInPageUrl(){
-
-        return this.PAGE_URL;
-    }
 
     private static String EMAIL = "v.demeshyn@svitla.com";
     private static String PASSWORD = "12345678qw";
@@ -53,6 +47,7 @@ public class SignInPage extends Config {
     @FindBy(css= ".alert-warning")
     private WebElement warningMessageField;
 
+//    private WebElement pwdField = browser.waitForVisible(By.id("user_password"));
 
 
     public SignInPage(WebDriver browser){
@@ -63,6 +58,7 @@ public class SignInPage extends Config {
     }
 
     public void fillEmail(){
+
         emailField.sendKeys(EMAIL);
     }
     public void fillInvalidEmail(){

@@ -8,7 +8,7 @@ Feature: Creating Scenario
     And I fill Password firld with valid email
     And I click on Sign In button
 
-@create-1
+  @create-1
   Scenario: User can create new Scenario on Scenario page
     And I choose organization
     And I click Impairments button

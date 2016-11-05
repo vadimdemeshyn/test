@@ -24,7 +24,6 @@ import org.testng.annotations.Test;
 public class CreatingScenario extends Config {
 
 
-    private Config config;
     private WebDriver browser;
     private Organizations organizations;
     private OrganizationInnerPage organizationInnerPage;
@@ -47,17 +46,13 @@ public class CreatingScenario extends Config {
 
     @Before
     public void beforeScenario() {
+
+        System.out.println(getDriverPath());
         browser = new Config().getDriver();
         System.out.println("this will run before the actual scenario");
         organizations = new Organizations(browser);
         organizationInnerPage = new OrganizationInnerPage(browser);
         scenariosPage = new ScenariosPage(browser);
-    }
-
-    @After
-    public void afterScenario() {
-        new Config().destroyDriver();
-        System.out.println("this will run after scneario is finished, even if it failed");
     }
 
         @And("^I choose organization$")
@@ -108,11 +103,11 @@ public class CreatingScenario extends Config {
             scenariosPage.getAlreadyExistingMessage();
         }
 
-    /* @After("@create")
+     @After("@create")
     public void closeBrowser(){
 
         browser.quit();
-    } */
+    }
 
     @Before("@create")
     public void signupSetup() {
@@ -123,5 +118,7 @@ public class CreatingScenario extends Config {
     public void signupTeardown() {
         System.out.println("This should run everytime after any of the @Signup-DataDriven tagged scenario has run");
     }
+
     }
+
 

@@ -6,11 +6,10 @@ PageObject/ALLL/ProbabilityOfDefault.class
 PageObject/ALLL/Bands.class
 PageObject/ALLL/Migration.class
 PageObject/ALLL/PDs.class
-Helpers/RunDriver$RunDriverDefaultImp.class
 TestCode/CreatingScenario.class
 PageObject/ALLL/LEP.class
+Helpers/DifferentMethods.class
 PageObject/Impairments/EditImpairmentPage.class
-Helpers/RunDriver.class
 PageObject/ALLL/AssetRecords.class
 PageObject/ALLL/PDLimits.class
 PageObject/ALLL/ProxyGrades.class

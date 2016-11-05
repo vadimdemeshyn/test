@@ -1,5 +1,6 @@
 /Users/vadimdemeshyn/test/alll/src/test/java/TestCode/RunTest.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/Migration.java
+/Users/vadimdemeshyn/test/alll/src/test/java/Helpers/DifferentMethods.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/ALLLPage.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/ProbabilityOfDefault.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/OrganizationInnerPage.java
@@ -10,7 +11,6 @@
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/oneMonthMigration.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/ProxyGrades.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/Impairments/ImpairmentsPage.java
-/Users/vadimdemeshyn/test/alll/src/test/java/Helpers/RunDriver.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/LEP.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/LGD.java
 /Users/vadimdemeshyn/test/alll/src/test/java/PageObject/ALLL/PDLimits.java

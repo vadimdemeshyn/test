@@ -12,7 +12,7 @@ public class OrganizationInnerPage {
 
     private WebDriver browser;
 
-    @FindBy(css = "a[href='/organizations/31/impairment_solver/scenarios']")
+    @FindBy(css = "a[href='/organizations/47/impairment_solver/scenarios']")
     private WebElement impairmentsButton;
 
 

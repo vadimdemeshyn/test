@@ -35,11 +35,15 @@ public class ScenariosPage extends Config {
         return this.PAGE_URL;
     }
 
-    @FindBy(css = "a[href='/organizations/31/impairment_solver/scenarios/new']")
+    @FindBy(css = "a[href='/organizations/47/impairment_solver/scenarios/new']")
     private WebElement addScenarioButton;
 
     @FindBy(id = "impairment_solver_scenario_name")
     private WebElement scenarioNameField;
+
+    @FindBy(id = "impairment_solver_scenario_alll_solver_dataset_id")
+    private WebElement datasesDate;
+
 
     @FindBy(css = "input[name='impairment_solver_scenario[for]']")
     private WebElement importImpairmentsFromDate;
@@ -67,11 +71,23 @@ public class ScenariosPage extends Config {
         }
 
         public void fillFieldsWithValidInfo(){
-            WebDriverWait wait = new WebDriverWait(browser, 40);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#impairment_solver_scenario_name")));
+//            WebDriverWait wait = new WebDriverWait(browser, 40);
+//            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#impairment_solver_scenario_name")));
+
+            Config.waitForVisible(By.cssSelector("#impairment_solver_scenario_name"));
 
            scenarioNameField.sendKeys("test");
+           datasesDate.click();
+           datasesDate.sendKeys("April");
        }
+
+    public void fillFieldsWithValidInfoButAnotherDataset(){
+        Config.waitForVisible(By.cssSelector("#impairment_solver_scenario_name"));
+
+        scenarioNameField.sendKeys("test");
+        datasesDate.click();
+        datasesDate.sendKeys("November");
+    }
 
         public void clickCreateButton(){
             createScenarioButton.click();
@@ -93,7 +109,7 @@ public class ScenariosPage extends Config {
 
         }
 
-        public void getAlreadyExistingMessage() throws InterruptedException {
+        public void getAlreadyExistingMessage() {
 
 
             String WARNING_MESSAGE = "Name has already been taken";

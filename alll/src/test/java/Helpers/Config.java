@@ -9,16 +9,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.MarionetteDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -63,31 +62,7 @@ public class Config {
 
     }
 
-
-
-
-
-
-
-//    public static WebElement waitForVisible(RunDriver self, By by){
-//        WebElement element = null;
-//
-//        WebDriverWait wait = new WebDriverWait(self, DEFAULT_WAIT);
-//        try {
-//            element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-//        } catch (StaleElementReferenceException ex) {
-//            System.err.println(ex.getMessage());
-//            return waitForVisible(self, by);
-//        }
-//
-//        return element;
-//    }
-
-
-
-
-
-    public  WebElement waitForVisible(By by){
+    public static WebElement waitForVisible(By by){
         WebDriverWait delay = new WebDriverWait(browser, 60);
         WebElement element = null;
         try {
@@ -108,7 +83,10 @@ public class Config {
 
     public void initialize() {
         if (browser == null)
-            createNewDriverInstance();
+        createNewDriverInstance();
+        browser.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        browser.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+
     }
 
     private void createNewDriverInstance() {
@@ -166,6 +144,7 @@ public class Config {
     }
 
     public WebDriver getDriver() {
+        if (browser == null) initialize();
         return browser;
     }
 

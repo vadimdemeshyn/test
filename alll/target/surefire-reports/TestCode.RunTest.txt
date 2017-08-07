@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestCode.RunTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.293 sec - in TestCode.RunTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.534 sec - in TestCode.RunTest

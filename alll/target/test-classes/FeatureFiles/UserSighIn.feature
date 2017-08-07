@@ -1,8 +1,7 @@
-
 @signin
+Feature:
+  User sign in
 
-
-Feature: User sign in
   @signin-1
   Scenario: User can login with valid credential
     Given I am on Sign In page
@@ -11,7 +10,6 @@ Feature: User sign in
     And I click on Sign In button
     Then I should be logged in successfully
 
-  @signin-2
   Scenario: User can't login with invalid credential - email
     Given I am on Sign In page
     When I fill Email field with invalid email

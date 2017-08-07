@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
         },
         features =  { "src/test/resources/FeatureFiles/" },
         glue =  { "TestCode/" }
-        //tags = {"@signin","@signin-2" }
+        //tags = {"@signin","@signin-2","@signin-3" }
 
 )
 

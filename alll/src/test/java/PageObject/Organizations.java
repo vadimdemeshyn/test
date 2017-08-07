@@ -22,7 +22,7 @@ public class Organizations extends Config {
     @FindBy(css = "#organizations-table_filter .input-sm")
     private WebElement searchField;
 
-    @FindBy(css = "a[href='/organizations/31']")
+    @FindBy(css = "a[href='/organizations/47']")
     private WebElement svitlaOrganization;
 
     @FindBy(id = "organizations-table_paginate")
@@ -58,7 +58,7 @@ public class Organizations extends Config {
         }
 
         public void chooseOrganization(){
-            searchField.sendKeys("31");
+            searchField.sendKeys("bankofTN");
             svitlaOrganization.click();
         }
 
